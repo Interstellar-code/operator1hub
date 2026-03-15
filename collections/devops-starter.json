@@ -1,0 +1,7 @@
+{
+  "slug": "devops-starter",
+  "name": "DevOps Starter",
+  "description": "Essential DevOps automation, reliability, and deployment tools",
+  "emoji": "🚀",
+  "items": ["devops-automator", "sre-agent", "deploy-check"]
+}

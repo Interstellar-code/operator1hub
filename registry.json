@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "updated": "2026-03-15T00:00:00Z",
+  "hub_url": "https://raw.githubusercontent.com/Interstellar-code/operator1hub/main",
+  "items": [
+    {
+      "slug": "code-reviewer",
+      "name": "Code Reviewer",
+      "type": "skill",
+      "category": "engineering",
+      "description": "Thorough code review with style, correctness, and security checks",
+      "path": "skills/code-reviewer/SKILL.md",
+      "readme": "skills/code-reviewer/README.md",
+      "version": "1.0.0",
+      "tags": ["code-quality", "review", "pr", "security"],
+      "emoji": "🔍",
+      "sha256": "a204e0b6316935e4c03a64e27859385f4720655faf11a1d3498b5ccac276aeca"
+    },
+    {
+      "slug": "security-audit",
+      "name": "Security Audit",
+      "type": "skill",
+      "category": "engineering",
+      "description": "OWASP-focused security audit for code, configs, and API surfaces",
+      "path": "skills/security-audit/SKILL.md",
+      "readme": "skills/security-audit/README.md",
+      "version": "1.0.0",
+      "tags": ["security", "owasp", "audit", "vulnerability"],
+      "emoji": "🛡️",
+      "sha256": "7d5927f8ac10b35d9fa25f7e7504aa09c0807f0a776b1d3b6980bf9c13ad4527"
+    },
+    {
+      "slug": "db-optimizer",
+      "name": "Database Optimizer",
+      "type": "skill",
+      "category": "engineering",
+      "description": "Analyze and optimize database queries, indexes, and schema design",
+      "path": "skills/db-optimizer/SKILL.md",
+      "readme": "skills/db-optimizer/README.md",
+      "version": "1.0.0",
+      "tags": ["database", "sql", "performance", "optimization", "indexes"],
+      "emoji": "🗄️",
+      "sha256": "ce8cb6ee58d4b7c7e75621c2c5a75baefda560493505d81d4bce797b97d1ba6e"
+    },
+    {
+      "slug": "devops-automator",
+      "name": "DevOps Automator",
+      "type": "skill",
+      "category": "devops",
+      "description": "CI/CD pipeline review, infrastructure automation, and deployment best practices",
+      "path": "skills/devops-automator/SKILL.md",
+      "readme": "skills/devops-automator/README.md",
+      "version": "1.0.0",
+      "tags": ["devops", "ci-cd", "infrastructure", "deployment", "automation"],
+      "emoji": "⚙️",
+      "sha256": "02accea73b3c75dd1b26e49b01a8af0afb32e5e2cba8ebb4f272ca3268ed6632"
+    },
+    {
+      "slug": "security-engineer",
+      "name": "Security Engineer",
+      "type": "agent",
+      "category": "engineering",
+      "description": "OWASP-focused security review persona — threat modeling, vulnerability assessment, secure design",
+      "path": "agents/security-engineer.md",
+      "version": "1.0.0",
+      "tags": ["security", "owasp", "threat-modeling", "audit"],
+      "emoji": "🛡️",
+      "sha256": "dfcf4ca0327d12a459b400f7ea49e408294eef5320a5b23082d94b97dce69d03"
+    },
+    {
+      "slug": "sre-agent",
+      "name": "SRE Agent",
+      "type": "agent",
+      "category": "devops",
+      "description": "Site reliability engineering — observability, incident response, SLOs, and production readiness",
+      "path": "agents/sre-agent.md",
+      "version": "1.0.0",
+      "tags": ["sre", "reliability", "observability", "incident-response", "slo"],
+      "emoji": "📡",
+      "sha256": "f567a8b4d3aea9f73eefef42f2b46dc049fb4d9115d0df00a5462331cf573486"
+    },
+    {
+      "slug": "architect",
+      "name": "Software Architect",
+      "type": "agent",
+      "category": "engineering",
+      "description": "System design, architecture decisions, trade-off analysis, and technical strategy",
+      "path": "agents/architect.md",
+      "version": "1.0.0",
+      "tags": ["architecture", "system-design", "trade-offs", "scalability"],
+      "emoji": "🏗️",
+      "sha256": "58619bbb2056b4d376d008743d85af4240542583f6e819aaeedffe98ba8637ba"
+    },
+    {
+      "slug": "technical-writer",
+      "name": "Technical Writer",
+      "type": "agent",
+      "category": "writing",
+      "description": "Clear, accurate technical documentation — API docs, guides, runbooks, and READMEs",
+      "path": "agents/technical-writer.md",
+      "version": "1.0.0",
+      "tags": ["documentation", "writing", "api-docs", "readme", "guides"],
+      "emoji": "✍️",
+      "sha256": "b9bb92d822a978559842adbef52c23d75d5a41402b11d56c3059959a957901ed"
+    },
+    {
+      "slug": "review-pr",
+      "name": "Review PR",
+      "type": "command",
+      "category": "engineering",
+      "description": "Review a GitHub PR with security, correctness, and style checks",
+      "path": "commands/review-pr.md",
+      "version": "1.0.0",
+      "tags": ["code-review", "github", "pr", "security"],
+      "emoji": "🔍",
+      "sha256": "2a7c3753c230c47d2b6bfc87cd47f484b7bb20accad6115786f7dbabafa5ad95"
+    },
+    {
+      "slug": "deploy-check",
+      "name": "Deploy Checklist",
+      "type": "command",
+      "category": "devops",
+      "description": "Pre-deployment checklist — verify readiness before pushing to production",
+      "path": "commands/deploy-check.md",
+      "version": "1.0.0",
+      "tags": ["deployment", "checklist", "production", "readiness"],
+      "emoji": "🚀",
+      "sha256": "9deadae95f9b74ba3b36d204744c723d6ade5186979f65b78e82af83f5b78068"
+    }
+  ],
+  "collections": [
+    {
+      "slug": "engineering-essentials",
+      "name": "Engineering Essentials",
+      "description": "Core engineering skills and agents for code quality, security, and system design",
+      "emoji": "⚡",
+      "items": ["code-reviewer", "security-audit", "security-engineer", "architect"]
+    },
+    {
+      "slug": "devops-starter",
+      "name": "DevOps Starter",
+      "description": "Essential DevOps automation, reliability, and deployment tools",
+      "emoji": "🚀",
+      "items": ["devops-automator", "sre-agent", "deploy-check"]
+    }
+  ]
+}
