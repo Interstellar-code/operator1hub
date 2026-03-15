@@ -12,7 +12,12 @@
       "path": "skills/code-reviewer/SKILL.md",
       "readme": "skills/code-reviewer/README.md",
       "version": "1.0.0",
-      "tags": ["code-quality", "review", "pr", "security"],
+      "tags": [
+        "code-quality",
+        "review",
+        "pr",
+        "security"
+      ],
       "emoji": "🔍",
       "sha256": "a204e0b6316935e4c03a64e27859385f4720655faf11a1d3498b5ccac276aeca"
     },
@@ -25,7 +30,12 @@
       "path": "skills/security-audit/SKILL.md",
       "readme": "skills/security-audit/README.md",
       "version": "1.0.0",
-      "tags": ["security", "owasp", "audit", "vulnerability"],
+      "tags": [
+        "security",
+        "owasp",
+        "audit",
+        "vulnerability"
+      ],
       "emoji": "🛡️",
       "sha256": "7d5927f8ac10b35d9fa25f7e7504aa09c0807f0a776b1d3b6980bf9c13ad4527"
     },
@@ -38,7 +48,13 @@
       "path": "skills/db-optimizer/SKILL.md",
       "readme": "skills/db-optimizer/README.md",
       "version": "1.0.0",
-      "tags": ["database", "sql", "performance", "optimization", "indexes"],
+      "tags": [
+        "database",
+        "sql",
+        "performance",
+        "optimization",
+        "indexes"
+      ],
       "emoji": "🗄️",
       "sha256": "ce8cb6ee58d4b7c7e75621c2c5a75baefda560493505d81d4bce797b97d1ba6e"
     },
@@ -51,7 +67,13 @@
       "path": "skills/devops-automator/SKILL.md",
       "readme": "skills/devops-automator/README.md",
       "version": "1.0.0",
-      "tags": ["devops", "ci-cd", "infrastructure", "deployment", "automation"],
+      "tags": [
+        "devops",
+        "ci-cd",
+        "infrastructure",
+        "deployment",
+        "automation"
+      ],
       "emoji": "⚙️",
       "sha256": "02accea73b3c75dd1b26e49b01a8af0afb32e5e2cba8ebb4f272ca3268ed6632"
     },
@@ -63,7 +85,13 @@
       "description": "Expert application security engineer specializing in threat modeling, vulnerability assessment, secure code review, and security architecture design",
       "path": "agents/security-engineer.md",
       "version": "1.0.0",
-      "tags": ["security", "threat-modeling", "vulnerability-assessment", "appsec", "devsecops"],
+      "tags": [
+        "security",
+        "threat-modeling",
+        "vulnerability-assessment",
+        "appsec",
+        "devsecops"
+      ],
       "emoji": "🔒",
       "sha256": "db6610209b8ff3191d567c0ef26bcfe043f71298a942f4e6a86f7468239a291b"
     },
@@ -75,7 +103,13 @@
       "description": "Expert site reliability engineer specializing in SLOs, error budgets, observability, chaos engineering, and toil reduction",
       "path": "agents/sre.md",
       "version": "1.0.0",
-      "tags": ["sre", "reliability", "slo", "observability", "chaos-engineering"],
+      "tags": [
+        "sre",
+        "reliability",
+        "slo",
+        "observability",
+        "chaos-engineering"
+      ],
       "emoji": "🛡️",
       "sha256": "b310ebea519dc090e92655e0e147b2bc456a17f59268988211ccb92794d4de83"
     },
@@ -87,7 +121,13 @@
       "description": "Expert software architect specializing in system design, domain-driven design, architectural patterns, and technical decision-making for scalable systems",
       "path": "agents/software-architect.md",
       "version": "1.0.0",
-      "tags": ["architecture", "system-design", "ddd", "trade-offs", "adr"],
+      "tags": [
+        "architecture",
+        "system-design",
+        "ddd",
+        "trade-offs",
+        "adr"
+      ],
       "emoji": "🏛️",
       "sha256": "c5779ee07876cb36b2d94f0de021cb0a2096a12fe16c2fd94ad0cf57a5893341"
     },
@@ -99,7 +139,12 @@
       "description": "Expert technical writer specializing in developer documentation, API references, README files, and tutorials that developers actually read and use",
       "path": "agents/technical-writer.md",
       "version": "1.0.0",
-      "tags": ["documentation", "technical-writing", "api-docs", "developer-experience"],
+      "tags": [
+        "documentation",
+        "technical-writing",
+        "api-docs",
+        "developer-experience"
+      ],
       "emoji": "📚",
       "sha256": "f2af084a066f9d77ec5a068a7c600b97b1cb6c38dfd889ebe7fe56e1833bb55f"
     },
@@ -111,7 +156,12 @@
       "description": "Review a GitHub PR with security, correctness, and style checks",
       "path": "commands/review-pr.md",
       "version": "1.0.0",
-      "tags": ["code-review", "github", "pr", "security"],
+      "tags": [
+        "code-review",
+        "github",
+        "pr",
+        "security"
+      ],
       "emoji": "🔍",
       "sha256": "2a7c3753c230c47d2b6bfc87cd47f484b7bb20accad6115786f7dbabafa5ad95"
     },
@@ -123,9 +173,2794 @@
       "description": "Pre-deployment checklist — verify readiness before pushing to production",
       "path": "commands/deploy-check.md",
       "version": "1.0.0",
-      "tags": ["deployment", "checklist", "production", "readiness"],
+      "tags": [
+        "deployment",
+        "checklist",
+        "production",
+        "readiness"
+      ],
       "emoji": "🚀",
       "sha256": "9deadae95f9b74ba3b36d204744c723d6ade5186979f65b78e82af83f5b78068"
+    },
+    {
+      "slug": "brand-guardian",
+      "name": "Brand Guardian",
+      "type": "agent",
+      "category": "design",
+      "description": "Expert brand strategist and guardian specializing in brand identity development, consistency maintenance, and strategic brand positioning",
+      "path": "agents/design/brand-guardian.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "brand",
+        "identity",
+        "strategy",
+        "visual-design",
+        "guidelines"
+      ],
+      "emoji": "🎨",
+      "sha256": "8dfc73388a153813a13c323273ab4a9cc8a3e825f82e549545f375d04bce7200"
+    },
+    {
+      "slug": "image-prompt-engineer",
+      "name": "Image Prompt Engineer",
+      "type": "agent",
+      "category": "design",
+      "description": "Expert photography prompt engineer specializing in crafting detailed, evocative prompts for AI image generation",
+      "path": "agents/design/image-prompt-engineer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "ai-image",
+        "prompt-engineering",
+        "photography",
+        "generative-ai",
+        "visual-design"
+      ],
+      "emoji": "📷",
+      "sha256": "dac6b566323416bf3d1a3869e9bc44b2316ccccea9237f497074737123458717"
+    },
+    {
+      "slug": "inclusive-visuals-specialist",
+      "name": "Inclusive Visuals Specialist",
+      "type": "agent",
+      "category": "design",
+      "description": "Representation expert who defeats systemic AI biases to generate culturally accurate, affirming, and non-stereotypical images and video",
+      "path": "agents/design/inclusive-visuals-specialist.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "inclusion",
+        "representation",
+        "ai-bias",
+        "cultural-accuracy",
+        "prompt-engineering"
+      ],
+      "emoji": "🌈",
+      "sha256": "c65b508f48187a3a2c6ccbd07fb4fbce28ff6ecff06671f3b457c30c830d27ff"
+    },
+    {
+      "slug": "ui-designer",
+      "name": "UI Designer",
+      "type": "agent",
+      "category": "design",
+      "description": "Expert UI designer specializing in visual design systems, component libraries, and pixel-perfect interface creation",
+      "path": "agents/design/ui-designer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "ui",
+        "design-systems",
+        "components",
+        "accessibility",
+        "responsive"
+      ],
+      "emoji": "🎨",
+      "sha256": "3d8d9b127d7d51bb384b0a101ba2280e91540345314630a4c79ebd13cd5c52af"
+    },
+    {
+      "slug": "ux-architect",
+      "name": "UX Architect",
+      "type": "agent",
+      "category": "design",
+      "description": "Technical architecture and UX specialist who provides developers with solid foundations, CSS systems, and clear implementation guidance",
+      "path": "agents/design/ux-architect.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "ux",
+        "architecture",
+        "css",
+        "layout",
+        "design-systems",
+        "developer-handoff"
+      ],
+      "emoji": "📐",
+      "sha256": "1db33dc464885cc9eedd7aa0e8d53d89d67039d15c93227019235c7556d3c76b"
+    },
+    {
+      "slug": "ux-researcher",
+      "name": "UX Researcher",
+      "type": "agent",
+      "category": "design",
+      "description": "Expert user experience researcher specializing in understanding user behavior, validating design decisions, and providing actionable insights",
+      "path": "agents/design/ux-researcher.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "ux-research",
+        "user-testing",
+        "personas",
+        "journey-mapping",
+        "data-analysis"
+      ],
+      "emoji": "🔍",
+      "sha256": "d6c3fff1fcf4f551a2a4474a0e8c91a4829ef8502d33bcf5f048fb30d3daf2a5"
+    },
+    {
+      "slug": "visual-storyteller",
+      "name": "Visual Storyteller",
+      "type": "agent",
+      "category": "design",
+      "description": "Expert visual communication specialist focused on creating compelling visual narratives, multimedia content, and brand storytelling through design",
+      "path": "agents/design/visual-storyteller.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "storytelling",
+        "multimedia",
+        "video",
+        "infographics",
+        "brand-narrative"
+      ],
+      "emoji": "🎬",
+      "sha256": "70ed3ad3e775c7ef2d9a33801601fb4c95b020f8e0c262fc15df7f30b845d72e"
+    },
+    {
+      "slug": "whimsy-injector",
+      "name": "Whimsy Injector",
+      "type": "agent",
+      "category": "design",
+      "description": "Expert creative specialist who adds personality, delight, and playful elements to brand experiences while maintaining professionalism",
+      "path": "agents/design/whimsy-injector.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "whimsy",
+        "micro-interactions",
+        "delight",
+        "gamification",
+        "brand-personality"
+      ],
+      "emoji": "✨",
+      "sha256": "8f1bbd2833ce1e4ec40a42728290cc24f8adc1767631fe3c4aac4f8a3cda9ccc"
+    },
+    {
+      "slug": "ai-data-remediation-engineer",
+      "name": "AI Data Remediation Engineer",
+      "type": "agent",
+      "category": "engineering",
+      "description": "Specialist in self-healing data pipelines using air-gapped local SLMs and semantic clustering to detect, classify, and fix data anomalies at scale",
+      "path": "agents/engineering/ai-data-remediation-engineer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "data-quality",
+        "ai",
+        "data-pipelines",
+        "anomaly-detection",
+        "slm"
+      ],
+      "emoji": "🧬",
+      "sha256": "b124ac6f8f289ec319b0feea2823464f055fe9e8eb94614590c23855f0a4dd84"
+    },
+    {
+      "slug": "ai-engineer",
+      "name": "AI Engineer",
+      "type": "agent",
+      "category": "engineering",
+      "description": "Expert AI/ML engineer specializing in model development, deployment, and integration into production systems with emphasis on practical, scalable solutions",
+      "path": "agents/engineering/ai-engineer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "ai",
+        "ml",
+        "machine-learning",
+        "mlops",
+        "production"
+      ],
+      "emoji": "🤖",
+      "sha256": "2678219ec98ee22025784ddef57599c6b5c65cf9b012cd66cedf1e0721e7a2ac"
+    },
+    {
+      "slug": "autonomous-optimization-architect",
+      "name": "Autonomous Optimization Architect",
+      "type": "agent",
+      "category": "engineering",
+      "description": "Intelligent system governor that continuously shadow-tests APIs for performance while enforcing strict financial and security guardrails against runaway costs",
+      "path": "agents/engineering/autonomous-optimization-architect.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "optimization",
+        "ai-routing",
+        "finops",
+        "circuit-breakers",
+        "shadow-testing"
+      ],
+      "emoji": "⚡",
+      "sha256": "c4fb9244b685e93b87e449e058d571206f6313b0903d476316e171ef77d659a1"
+    },
+    {
+      "slug": "backend-architect",
+      "name": "Backend Architect",
+      "type": "agent",
+      "category": "engineering",
+      "description": "Senior backend architect specializing in scalable system design, database architecture, API development, and cloud infrastructure",
+      "path": "agents/engineering/backend-architect.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "architecture",
+        "backend",
+        "databases",
+        "api-design",
+        "scalability"
+      ],
+      "emoji": "🏗️",
+      "sha256": "15461eff6f224402f9e1df82096054fb46d926b02f323318acd95e25a1bbdbe5"
+    },
+    {
+      "slug": "data-engineer",
+      "name": "Data Engineer",
+      "type": "agent",
+      "category": "engineering",
+      "description": "Expert data engineer specializing in reliable data pipelines, lakehouse architectures, and scalable data infrastructure with ETL/ELT, Spark, dbt, and streaming systems",
+      "path": "agents/engineering/data-engineer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "data-engineering",
+        "pipelines",
+        "etl",
+        "lakehouse",
+        "data-quality"
+      ],
+      "emoji": "🔧",
+      "sha256": "6d4e7271d73cb95563396b4e043c00ff91a0ff4e4759a7daf1c5e50302fd348f"
+    },
+    {
+      "slug": "database-optimizer",
+      "name": "Database Optimizer",
+      "type": "agent",
+      "category": "engineering",
+      "description": "Expert database specialist focusing on schema design, query optimization, indexing strategies, and performance tuning for PostgreSQL, MySQL, and modern databases",
+      "path": "agents/engineering/database-optimizer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "databases",
+        "postgresql",
+        "query-optimization",
+        "indexing",
+        "performance"
+      ],
+      "emoji": "🗄️",
+      "sha256": "1509be07697a58481a59420ebc267ad21a1fb91516a4e4daf01787781b3a8a26"
+    },
+    {
+      "slug": "embedded-firmware-engineer",
+      "name": "Embedded Firmware Engineer",
+      "type": "agent",
+      "category": "engineering",
+      "description": "Specialist in bare-metal and RTOS firmware for ESP32, ARM Cortex-M, STM32, Nordic nRF, FreeRTOS, and Zephyr",
+      "path": "agents/engineering/embedded-firmware-engineer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "firmware",
+        "embedded",
+        "rtos",
+        "esp32",
+        "stm32"
+      ],
+      "emoji": "🔩",
+      "sha256": "4b1e3448a04f8717176a1a92efb2b2bb04ce6598a5b404a39915828dd7d17bc7"
+    },
+    {
+      "slug": "feishu-integration-developer",
+      "name": "Feishu Integration Developer",
+      "type": "agent",
+      "category": "engineering",
+      "description": "Full-stack integration expert for the Feishu (Lark) Open Platform -- bots, approvals, Bitable, message cards, SSO, and workflow automation",
+      "path": "agents/engineering/feishu-integration-developer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "feishu",
+        "lark",
+        "integrations",
+        "bots",
+        "enterprise"
+      ],
+      "emoji": "🔗",
+      "sha256": "b4855289dfcd1398ddbaa9b4a8da55547dfb1f1b2ba15584a717b66ce28a90f1"
+    },
+    {
+      "slug": "frontend-developer",
+      "name": "Frontend Developer",
+      "type": "agent",
+      "category": "engineering",
+      "description": "Expert frontend developer specializing in modern web technologies, React/Vue/Angular frameworks, UI implementation, and performance optimization",
+      "path": "agents/engineering/frontend-developer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "frontend",
+        "react",
+        "css",
+        "accessibility",
+        "performance"
+      ],
+      "emoji": "🖥️",
+      "sha256": "cfc6dcc72f5ed83fc41ed0e790f70ea34eb29fa1948fc20e453449af908632e3"
+    },
+    {
+      "slug": "git-workflow-master",
+      "name": "Git Workflow Master",
+      "type": "agent",
+      "category": "engineering",
+      "description": "Expert in Git workflows, branching strategies, and version control best practices including conventional commits, rebasing, worktrees, and CI-friendly branch management",
+      "path": "agents/engineering/git-workflow-master.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "git",
+        "version-control",
+        "branching",
+        "ci-cd",
+        "workflow"
+      ],
+      "emoji": "🌿",
+      "sha256": "54e8bd65cd1021b54fa58347b2476d19cec5105239609842dd1831dd785701a0"
+    },
+    {
+      "slug": "incident-response-commander",
+      "name": "Incident Response Commander",
+      "type": "agent",
+      "category": "engineering",
+      "description": "Expert incident commander specializing in production incident management, structured response coordination, post-mortem facilitation, and SLO/SLI tracking",
+      "path": "agents/engineering/incident-response-commander.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "incident-response",
+        "sre",
+        "post-mortem",
+        "on-call",
+        "reliability"
+      ],
+      "emoji": "🚨",
+      "sha256": "9d7be848474e6ad97d99fe55903396a1fc757f8b3150e1e84faf597e5f04b099"
+    },
+    {
+      "slug": "mobile-app-builder",
+      "name": "Mobile App Builder",
+      "type": "agent",
+      "category": "engineering",
+      "description": "Specialized mobile application developer with expertise in native iOS/Android development and cross-platform frameworks",
+      "path": "agents/engineering/mobile-app-builder.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "mobile",
+        "ios",
+        "android",
+        "react-native",
+        "flutter"
+      ],
+      "emoji": "📲",
+      "sha256": "3d9aa296e07ce02f89f79d25c409bd48ace63a26c6cecbf7d91a9242df23db9c"
+    },
+    {
+      "slug": "rapid-prototyper",
+      "name": "Rapid Prototyper",
+      "type": "agent",
+      "category": "engineering",
+      "description": "Specialist in ultra-fast proof-of-concept development and MVP creation using efficient tools and frameworks",
+      "path": "agents/engineering/rapid-prototyper.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "prototyping",
+        "mvp",
+        "rapid-development",
+        "validation",
+        "startup"
+      ],
+      "emoji": "⚡",
+      "sha256": "ea72730ad7c92b8f9e9e577aef419c022d508d3b47958caed22d1e06392cee1a"
+    },
+    {
+      "slug": "senior-developer",
+      "name": "Senior Developer",
+      "type": "agent",
+      "category": "engineering",
+      "description": "Premium implementation specialist mastering Laravel/Livewire/FluxUI, advanced CSS, Three.js integration, and luxury web experiences",
+      "path": "agents/engineering/senior-developer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "full-stack",
+        "laravel",
+        "css",
+        "three-js",
+        "premium-design"
+      ],
+      "emoji": "💎",
+      "sha256": "01d104c79bc386fc157138895d8cfa10c99dbdd082b29ddf1d56f0e1274f73fe"
+    },
+    {
+      "slug": "solidity-smart-contract-engineer",
+      "name": "Solidity Smart Contract Engineer",
+      "type": "agent",
+      "category": "engineering",
+      "description": "Expert Solidity developer specializing in EVM smart contract architecture, gas optimization, upgradeable proxy patterns, DeFi protocol development, and security-first design",
+      "path": "agents/engineering/solidity-smart-contract-engineer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "solidity",
+        "ethereum",
+        "smart-contracts",
+        "defi",
+        "web3"
+      ],
+      "emoji": "⛓️",
+      "sha256": "6fb82350ad842a05a1c61187e7f58caaf52836527d194901cb091d76b9ed70ed"
+    },
+    {
+      "slug": "threat-detection-engineer",
+      "name": "Threat Detection Engineer",
+      "type": "agent",
+      "category": "engineering",
+      "description": "Expert detection engineer specializing in SIEM rule development, MITRE ATT&CK coverage mapping, threat hunting, alert tuning, and detection-as-code pipelines",
+      "path": "agents/engineering/threat-detection-engineer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "security",
+        "detection",
+        "siem",
+        "mitre-attack",
+        "threat-hunting"
+      ],
+      "emoji": "🎯",
+      "sha256": "4b4a845c69912fe6a873c816aff2dc2415471fa3b93f97a48e5b798cc7dc2390"
+    },
+    {
+      "slug": "wechat-mini-program-developer",
+      "name": "WeChat Mini Program Developer",
+      "type": "agent",
+      "category": "engineering",
+      "description": "Expert WeChat Mini Program developer specializing in WXML/WXSS/WXS development, WeChat API integration, payment systems, and the full WeChat ecosystem",
+      "path": "agents/engineering/wechat-mini-program-developer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "wechat",
+        "mini-program",
+        "china",
+        "mobile",
+        "payments"
+      ],
+      "emoji": "💬",
+      "sha256": "cd48fb31ef5963607fc46331f8373d51de0083a9bb827f1fdc81eb2ae3054f12"
+    },
+    {
+      "slug": "blender-addon-engineer",
+      "name": "Blender Addon Engineer",
+      "type": "agent",
+      "category": "game-dev",
+      "description": "Python-based Blender add-on specialist — automates asset-pipeline tasks including validation, export, cleanup, and publishing workflows",
+      "path": "agents/game-dev/blender-addon-engineer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "blender",
+        "python",
+        "asset-pipeline",
+        "automation",
+        "validation",
+        "export"
+      ],
+      "emoji": "🧊",
+      "sha256": "340182f430fbf1874f3d52874ab427a5ae6371369c442a6d6588e17b213c2e56"
+    },
+    {
+      "slug": "game-audio-engineer",
+      "name": "Game Audio Engineer",
+      "type": "agent",
+      "category": "game-dev",
+      "description": "Interactive audio specialist — masters FMOD/Wwise integration, adaptive music systems, spatial audio, and audio performance budgeting across all game engines",
+      "path": "agents/game-dev/game-audio-engineer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "fmod",
+        "wwise",
+        "spatial-audio",
+        "adaptive-music",
+        "audio-engineering",
+        "game-audio"
+      ],
+      "emoji": "🎵",
+      "sha256": "a8569b7e6490118d0bd8f54bbce8abb804c7e123d2f15f222912a1dd99c068a0"
+    },
+    {
+      "slug": "game-designer",
+      "name": "Game Designer",
+      "type": "agent",
+      "category": "game-dev",
+      "description": "Systems and mechanics architect — masters GDD authorship, player psychology, economy balancing, and gameplay loop design across all engines and genres",
+      "path": "agents/game-dev/game-designer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "game-design",
+        "gdd",
+        "economy-design",
+        "gameplay-loops",
+        "player-psychology",
+        "balancing"
+      ],
+      "emoji": "🎮",
+      "sha256": "e6b57c61d758c54b3c9d223c7d93175f3e557d816d5f9c4dcb42b603f020cc94"
+    },
+    {
+      "slug": "godot-gameplay-scripter",
+      "name": "Godot Gameplay Scripter",
+      "type": "agent",
+      "category": "game-dev",
+      "description": "Godot 4 specialist — builds type-safe, signal-driven gameplay systems with composition-first architecture and static type enforcement",
+      "path": "agents/game-dev/godot-gameplay-scripter.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "godot",
+        "gdscript",
+        "gameplay",
+        "signals",
+        "composition",
+        "type-safety"
+      ],
+      "emoji": "🎮",
+      "sha256": "e6b10294a0af138cbc574f98cce75eb4b864ae440b088caaa7c81a4eefbadece"
+    },
+    {
+      "slug": "godot-multiplayer-engineer",
+      "name": "Godot Multiplayer Engineer",
+      "type": "agent",
+      "category": "game-dev",
+      "description": "Godot 4 networking specialist — builds multiplayer games using scene-based replication, MultiplayerAPI, RPCs, and server-authoritative architecture",
+      "path": "agents/game-dev/godot-multiplayer-engineer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "godot",
+        "multiplayer",
+        "networking",
+        "replication",
+        "rpc",
+        "server-authority"
+      ],
+      "emoji": "🌐",
+      "sha256": "ece7269dac0afef956d075b4b1513b5f8af3133d10d6abdb1c0851e39b3f3e61"
+    },
+    {
+      "slug": "godot-shader-developer",
+      "name": "Godot Shader Developer",
+      "type": "agent",
+      "category": "game-dev",
+      "description": "Godot 4 visual effects specialist — masters the Godot Shading Language, VisualShader editor, CanvasItem and Spatial shaders, post-processing, and performance optimization",
+      "path": "agents/game-dev/godot-shader-developer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "godot",
+        "shaders",
+        "glsl",
+        "visual-effects",
+        "rendering",
+        "post-processing"
+      ],
+      "emoji": "💎",
+      "sha256": "eeafc254e57ace02b958a142e4c113097ebe1b716f0d0ba304e7d831e3356bb1"
+    },
+    {
+      "slug": "level-designer",
+      "name": "Level Designer",
+      "type": "agent",
+      "category": "game-dev",
+      "description": "Spatial storytelling and flow specialist — masters layout theory, pacing architecture, encounter design, and environmental narrative across all game engines",
+      "path": "agents/game-dev/level-designer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "level-design",
+        "spatial-design",
+        "encounter-design",
+        "environmental-storytelling",
+        "pacing",
+        "blockout"
+      ],
+      "emoji": "🗺",
+      "sha256": "24890474ba56e05858e052327e1d5fa638b22c597ae8b620ac97f0fd985986fa"
+    },
+    {
+      "slug": "narrative-designer",
+      "name": "Narrative Designer",
+      "type": "agent",
+      "category": "game-dev",
+      "description": "Story systems and dialogue architect — masters GDD-aligned narrative design, branching dialogue, lore architecture, and environmental storytelling across all game engines",
+      "path": "agents/game-dev/narrative-designer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "narrative-design",
+        "dialogue",
+        "branching-story",
+        "lore",
+        "environmental-storytelling",
+        "character-voice"
+      ],
+      "emoji": "📖",
+      "sha256": "eb9f2be554858e1032e5885890ee38ec525393b84f08e706c12b6fa2a8f65a4c"
+    },
+    {
+      "slug": "roblox-avatar-creator",
+      "name": "Roblox Avatar Creator",
+      "type": "agent",
+      "category": "game-dev",
+      "description": "UGC pipeline specialist — builds Roblox avatar items that pass moderation and ship through Creator Marketplace",
+      "path": "agents/game-dev/roblox-avatar-creator.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "roblox",
+        "ugc",
+        "avatar",
+        "3d-modeling",
+        "marketplace",
+        "accessories"
+      ],
+      "emoji": "🧑‍🎨",
+      "sha256": "1de8225db06cfaa4b2cb6e5e644d384e1fb3458980bdf30d97b5498f879a29be"
+    },
+    {
+      "slug": "roblox-experience-designer",
+      "name": "Roblox Experience Designer",
+      "type": "agent",
+      "category": "game-dev",
+      "description": "Roblox-native product specialist — builds engaging, monetizable, and ethical player experiences with retention-focused design",
+      "path": "agents/game-dev/roblox-experience-designer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "roblox",
+        "experience-design",
+        "monetization",
+        "retention",
+        "onboarding",
+        "game-passes"
+      ],
+      "emoji": "🎮",
+      "sha256": "02f1ed46bdc40bb296faf8a15039c23e830469cc70655f05445f21fffd9b6cec"
+    },
+    {
+      "slug": "roblox-systems-scripter",
+      "name": "Roblox Systems Scripter",
+      "type": "agent",
+      "category": "game-dev",
+      "description": "Roblox platform engineering specialist — masters Luau, client-server security model, RemoteEvents/RemoteFunctions, DataStore, and module architecture",
+      "path": "agents/game-dev/roblox-systems-scripter.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "roblox",
+        "luau",
+        "client-server",
+        "datastore",
+        "remote-events",
+        "security"
+      ],
+      "emoji": "🔧",
+      "sha256": "34bd3ea77a91354cb3703ca745f542a86d7674359326833256f3925c054161f3"
+    },
+    {
+      "slug": "technical-artist",
+      "name": "Technical Artist",
+      "type": "agent",
+      "category": "game-dev",
+      "description": "Art-to-engine pipeline specialist — masters shaders, VFX systems, LOD pipelines, performance budgeting, and cross-engine asset optimization",
+      "path": "agents/game-dev/technical-artist.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "shaders",
+        "vfx",
+        "lod",
+        "performance",
+        "asset-pipeline",
+        "rendering"
+      ],
+      "emoji": "🎨",
+      "sha256": "a237eb8dec3fd4f1d97ad730a13c959af873d9aa55b1f81354f6e8a6ee5d0de5"
+    },
+    {
+      "slug": "unity-architect",
+      "name": "Unity Architect",
+      "type": "agent",
+      "category": "game-dev",
+      "description": "Senior Unity engineer — builds clean, scalable, data-driven architecture using ScriptableObjects and composition patterns",
+      "path": "agents/game-dev/unity-architect.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "unity",
+        "architecture",
+        "scriptable-objects",
+        "composition",
+        "design-patterns",
+        "csharp"
+      ],
+      "emoji": "🏗",
+      "sha256": "a524158ab83aee9efebb9850c0f32a095b6601b3bc3cf07996e149c57060b027"
+    },
+    {
+      "slug": "unity-editor-tool-developer",
+      "name": "Unity Editor Tool Developer",
+      "type": "agent",
+      "category": "game-dev",
+      "description": "Unity Editor extensions specialist — builds custom inspector panels, asset postprocessors, property drawers, and build validators",
+      "path": "agents/game-dev/unity-editor-tool-developer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "unity",
+        "editor-tools",
+        "automation",
+        "inspector",
+        "asset-pipeline",
+        "build-validation"
+      ],
+      "emoji": "🛠",
+      "sha256": "c98295498ab745d1152948c01c5a8961ace1be8744a1bae9f51792d48e98aaf2"
+    },
+    {
+      "slug": "unity-multiplayer-engineer",
+      "name": "Unity Multiplayer Engineer",
+      "type": "agent",
+      "category": "game-dev",
+      "description": "Unity networking specialist — designs deterministic, cheat-resistant multiplayer systems using Netcode for GameObjects and Unity Gaming Services",
+      "path": "agents/game-dev/unity-multiplayer-engineer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "unity",
+        "multiplayer",
+        "netcode",
+        "networking",
+        "server-authority",
+        "ugs"
+      ],
+      "emoji": "🌐",
+      "sha256": "80d23bede4b5d71816175813b3efdaa6c503fb4381f9ecef3deaf60dac640a2a"
+    },
+    {
+      "slug": "unity-shader-graph-artist",
+      "name": "Unity Shader Graph Artist",
+      "type": "agent",
+      "category": "game-dev",
+      "description": "Unity rendering specialist — balances mathematical precision with artistic vision, authoring shaders across Shader Graph and HLSL for URP/HDRP",
+      "path": "agents/game-dev/unity-shader-graph-artist.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "unity",
+        "shader-graph",
+        "hlsl",
+        "urp",
+        "hdrp",
+        "rendering"
+      ],
+      "emoji": "🌈",
+      "sha256": "1aa91a44f2f5b07c3a108f39938768b97980a51633e06c57aa6a9e3fa0e2691e"
+    },
+    {
+      "slug": "unreal-multiplayer-architect",
+      "name": "Unreal Multiplayer Architect",
+      "type": "agent",
+      "category": "game-dev",
+      "description": "UE5 networking engineer — specializes in server-authoritative multiplayer systems from co-op to competitive PvP with replication and GAS integration",
+      "path": "agents/game-dev/unreal-multiplayer-architect.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "unreal",
+        "multiplayer",
+        "networking",
+        "replication",
+        "gas",
+        "dedicated-server"
+      ],
+      "emoji": "🌐",
+      "sha256": "49b76e78d488a55ee8e883249f021569626da790097398a9178bb7594c09437b"
+    },
+    {
+      "slug": "unreal-systems-engineer",
+      "name": "Unreal Systems Engineer",
+      "type": "agent",
+      "category": "game-dev",
+      "description": "Deeply technical Unreal Engine 5 architect — masters the Blueprint/C++ boundary, GAS, Nanite, Lumen, and memory management for AAA-quality systems",
+      "path": "agents/game-dev/unreal-systems-engineer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "unreal",
+        "cpp",
+        "blueprint",
+        "gas",
+        "nanite",
+        "lumen",
+        "performance"
+      ],
+      "emoji": "🎮",
+      "sha256": "e53f12ea7196c857518dfea218da0cc356541c482ab5486c8cdc8056cfafe474"
+    },
+    {
+      "slug": "cfo",
+      "name": "Chief Financial Officer",
+      "type": "agent",
+      "category": "leadership",
+      "description": "Finance leader managing analysis, compliance, risk management, and financial operations",
+      "path": "agents/leadership/cfo.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "leadership",
+        "finance",
+        "compliance",
+        "risk-management",
+        "reporting"
+      ],
+      "emoji": "💎",
+      "sha256": "cf0cd3bd4f9f55dacccbcb68034a7d02e1c4ebe25a291406db8de646900e1e17"
+    },
+    {
+      "slug": "cmo",
+      "name": "Chief Marketing Officer",
+      "type": "agent",
+      "category": "leadership",
+      "description": "Marketing leader who drives brand strategy, content, and audience engagement across all channels",
+      "path": "agents/leadership/cmo.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "leadership",
+        "marketing",
+        "brand",
+        "content-strategy",
+        "audience-growth"
+      ],
+      "emoji": "🌀",
+      "sha256": "b813f8b5b041e4dc53f223e6a3683c331fc67d4625b1be5ffcb5653371be2e52"
+    },
+    {
+      "slug": "coo",
+      "name": "Chief Operating Officer",
+      "type": "agent",
+      "category": "leadership",
+      "description": "Strategic orchestrator who routes tasks to department heads and coordinates cross-functional initiatives",
+      "path": "agents/leadership/coo.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "leadership",
+        "operations",
+        "orchestration",
+        "routing",
+        "strategy"
+      ],
+      "emoji": "🎯",
+      "sha256": "353a6c1193503abc1e5b93446324ea30fdfdecf1548b00e191e65f47158c65c3"
+    },
+    {
+      "slug": "cto",
+      "name": "Chief Technology Officer",
+      "type": "agent",
+      "category": "leadership",
+      "description": "Engineering leader who routes technical tasks to specialists and makes architecture decisions",
+      "path": "agents/leadership/cto.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "leadership",
+        "engineering",
+        "architecture",
+        "technical-strategy",
+        "code-quality"
+      ],
+      "emoji": "🔮",
+      "sha256": "6d55c193d3415301041c41fee03466a6248bde44f72f2fdf90deb040eb469b91"
+    },
+    {
+      "slug": "app-store-optimizer",
+      "name": "App Store Optimizer",
+      "type": "agent",
+      "category": "marketing",
+      "description": "Expert app store marketing specialist focused on ASO, conversion rate optimization, and app discoverability across iOS and Android stores.",
+      "path": "agents/marketing/app-store-optimizer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "aso",
+        "app-store",
+        "mobile-marketing",
+        "conversion-optimization",
+        "keyword-research"
+      ],
+      "emoji": "📲",
+      "sha256": "262820bd80594706e23b4ba8c71e5702c6e46feaefb4b0748808ce913546ab72"
+    },
+    {
+      "slug": "baidu-seo-specialist",
+      "name": "Baidu SEO Specialist",
+      "type": "agent",
+      "category": "marketing",
+      "description": "Expert in China's Baidu search engine optimization covering ICP compliance, technical SEO, Baidu ecosystem integration, and Chinese keyword strategy.",
+      "path": "agents/marketing/baidu-seo-specialist.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "baidu",
+        "china-seo",
+        "chinese-market",
+        "icp-compliance",
+        "baidu-ecosystem",
+        "organic-search"
+      ],
+      "emoji": "🔎",
+      "sha256": "a2c534ee1ad0044bf331a1037ba0447ddb00e07ff68ce2b5e326a3ef654f7c92"
+    },
+    {
+      "slug": "bilibili-content-strategist",
+      "name": "Bilibili Content Strategist",
+      "type": "agent",
+      "category": "marketing",
+      "description": "Bilibili platform content strategy specialist focused on UP主 growth, danmaku culture mastery, algorithm optimization, and native branded content in China's ACG community.",
+      "path": "agents/marketing/bilibili-content-strategist.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "bilibili",
+        "china-video",
+        "danmaku",
+        "acg",
+        "community",
+        "content-strategy"
+      ],
+      "emoji": "📺",
+      "sha256": "ba6b52998548d9e1a16b39fc76e1ef6d279f9fb1083e28f827f1ff568ae90fdc"
+    },
+    {
+      "slug": "book-co-author",
+      "name": "Book Co-Author",
+      "type": "agent",
+      "category": "marketing",
+      "description": "Strategic co-author, ghostwriter, and narrative architect for thought-leadership books that strengthen category positioning.",
+      "path": "agents/marketing/book-co-author.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "ghostwriting",
+        "thought-leadership",
+        "book-writing",
+        "narrative",
+        "content-strategy"
+      ],
+      "emoji": "📖",
+      "sha256": "9757e4bcd383ce366febeba0ca03fd85a0483efdb1d8f73ea748b191767fae4a"
+    },
+    {
+      "slug": "carousel-growth-engine",
+      "name": "Carousel Growth Engine",
+      "type": "agent",
+      "category": "marketing",
+      "description": "Autonomous TikTok and Instagram carousel generation specialist that analyzes websites, generates viral 6-slide carousels, and publishes with analytics-driven iteration.",
+      "path": "agents/marketing/carousel-growth-engine.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "carousel",
+        "tiktok",
+        "instagram",
+        "automation",
+        "visual-content",
+        "social-media"
+      ],
+      "emoji": "🎠",
+      "sha256": "a95954c9be5b890cc0b4303ee4439c37ab77464e9934ece7eb58738b1c4a1ee1"
+    },
+    {
+      "slug": "china-e-commerce-operator",
+      "name": "China E-Commerce Operator",
+      "type": "agent",
+      "category": "marketing",
+      "description": "Expert China e-commerce operations specialist covering Taobao, Tmall, Pinduoduo, and JD ecosystems with live commerce, campaign strategy, and cross-platform operations.",
+      "path": "agents/marketing/china-e-commerce-operator.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "china-ecommerce",
+        "taobao",
+        "tmall",
+        "pinduoduo",
+        "jd",
+        "live-commerce",
+        "618",
+        "double-11"
+      ],
+      "emoji": "🛒",
+      "sha256": "862e50720b88d89cf4d1a2996269ee2576921edee1842e911bdc6ec88ee24df9"
+    },
+    {
+      "slug": "content-creator",
+      "name": "Content Creator",
+      "type": "agent",
+      "category": "marketing",
+      "description": "Expert content strategist and creator for multi-platform campaigns, editorial calendars, brand storytelling, and engagement optimization across all digital channels.",
+      "path": "agents/marketing/content-creator.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "content-strategy",
+        "copywriting",
+        "storytelling",
+        "multi-platform",
+        "editorial",
+        "video"
+      ],
+      "emoji": "✍️",
+      "sha256": "ee1f1f516044357758cdce92689bc2e42748d7410be5b26ec87b47e2f724ab96"
+    },
+    {
+      "slug": "cross-border-e-commerce",
+      "name": "Cross-Border E-Commerce Specialist",
+      "type": "agent",
+      "category": "marketing",
+      "description": "Full-funnel cross-border e-commerce strategist covering Amazon, Shopee, Lazada, AliExpress, Temu, and TikTok Shop with international logistics, compliance, and brand globalization.",
+      "path": "agents/marketing/cross-border-e-commerce.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "cross-border",
+        "amazon",
+        "shopee",
+        "international",
+        "logistics",
+        "compliance",
+        "brand-globalization"
+      ],
+      "emoji": "🌏",
+      "sha256": "2cff7c0eea549b3fa63990398b79514d1b719be0a9f842ce8f194d9e76e035f4"
+    },
+    {
+      "slug": "douyin-strategist",
+      "name": "Douyin Strategist",
+      "type": "agent",
+      "category": "marketing",
+      "description": "Short-video marketing expert specializing in Douyin's recommendation algorithm, viral video planning, livestream commerce, and content matrix strategies.",
+      "path": "agents/marketing/douyin-strategist.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "douyin",
+        "china-short-video",
+        "algorithm",
+        "livestream-commerce",
+        "viral-content",
+        "dou-plus"
+      ],
+      "emoji": "🎶",
+      "sha256": "78b0e14786a00b10af817a769ea5440b03d49694f5d7ee53bd9701ef8c7e2e91"
+    },
+    {
+      "slug": "growth-hacker",
+      "name": "Growth Hacker",
+      "type": "agent",
+      "category": "marketing",
+      "description": "Expert growth strategist specializing in rapid user acquisition through data-driven experimentation, viral loops, funnel optimization, and scalable growth channels.",
+      "path": "agents/marketing/growth-hacker.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "growth",
+        "experimentation",
+        "user-acquisition",
+        "viral-loops",
+        "funnel-optimization",
+        "analytics"
+      ],
+      "emoji": "🚀",
+      "sha256": "ed94ec80662afda45de5dcbc64c7b14af1710dc7e85990eb8be538abf0572e2c"
+    },
+    {
+      "slug": "instagram-curator",
+      "name": "Instagram Curator",
+      "type": "agent",
+      "category": "marketing",
+      "description": "Expert Instagram marketing specialist focused on visual storytelling, community building, multi-format content optimization, and social commerce.",
+      "path": "agents/marketing/instagram-curator.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "instagram",
+        "visual-storytelling",
+        "community",
+        "social-commerce",
+        "reels",
+        "ugc"
+      ],
+      "emoji": "📸",
+      "sha256": "38a1bd433e315a227b24091923a0c485c2a8ecb4740e4a8bcd48e8a4c7ef0dd2"
+    },
+    {
+      "slug": "kuaishou-strategist",
+      "name": "Kuaishou Strategist",
+      "type": "agent",
+      "category": "marketing",
+      "description": "Kuaishou marketing strategist specializing in grassroots audience building, live commerce operations, and lower-tier city market engagement in China.",
+      "path": "agents/marketing/kuaishou-strategist.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "kuaishou",
+        "china-short-video",
+        "live-commerce",
+        "grassroots",
+        "lower-tier-cities",
+        "trust-economy"
+      ],
+      "emoji": "🎬",
+      "sha256": "5cd9168b28d2db2064c85aeab13e216717ebd9f891ae578928c261dfb69b7fb2"
+    },
+    {
+      "slug": "linkedin-content-creator",
+      "name": "LinkedIn Content Creator",
+      "type": "agent",
+      "category": "marketing",
+      "description": "Expert LinkedIn content strategist focused on thought leadership, personal brand building, high-engagement professional content, and inbound opportunity generation.",
+      "path": "agents/marketing/linkedin-content-creator.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "linkedin",
+        "thought-leadership",
+        "personal-brand",
+        "b2b",
+        "professional-content",
+        "inbound"
+      ],
+      "emoji": "💼",
+      "sha256": "6ae0e4fd0319a1790c7f6cdf77c47467f65437f729c007015dff56208682d14a"
+    },
+    {
+      "slug": "livestream-commerce-coach",
+      "name": "Livestream Commerce Coach",
+      "type": "agent",
+      "category": "marketing",
+      "description": "Livestream e-commerce operations specialist coaching hosts from beginner to high-performing sellers across Douyin, Kuaishou, Taobao Live, and Channels.",
+      "path": "agents/marketing/livestream-commerce-coach.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "livestream",
+        "live-commerce",
+        "host-development",
+        "douyin",
+        "taobao-live",
+        "conversion"
+      ],
+      "emoji": "📹",
+      "sha256": "a290bdeac572bae37fde328fef33fd7eeb7a14670c4fb4af522475d321ee4330"
+    },
+    {
+      "slug": "podcast-strategist",
+      "name": "Podcast Strategist",
+      "type": "agent",
+      "category": "marketing",
+      "description": "Podcast strategy specialist covering show positioning, production workflows, platform operations, audience growth, and monetization across major audio platforms.",
+      "path": "agents/marketing/podcast-strategist.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "podcast",
+        "audio",
+        "content-strategy",
+        "audience-growth",
+        "monetization",
+        "production"
+      ],
+      "emoji": "🎧",
+      "sha256": "cc8821400741920d789e5a4a506f5801701e59212c17591843d4ba9f32fce686"
+    },
+    {
+      "slug": "private-domain-operator",
+      "name": "Private Domain Operator",
+      "type": "agent",
+      "category": "marketing",
+      "description": "Expert in building enterprise WeChat (WeCom) private domain ecosystems with SCRM systems, segmented community operations, Mini Program commerce, and user lifecycle management.",
+      "path": "agents/marketing/private-domain-operator.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "wecom",
+        "private-domain",
+        "scrm",
+        "community",
+        "mini-program",
+        "user-lifecycle",
+        "wechat"
+      ],
+      "emoji": "🔒",
+      "sha256": "2fd6735667e7fb09d710114071ecfa176e53029467332c3504962a855779cb9b"
+    },
+    {
+      "slug": "reddit-community-builder",
+      "name": "Reddit Community Builder",
+      "type": "agent",
+      "category": "marketing",
+      "description": "Expert Reddit marketing specialist focused on authentic community engagement, value-driven content creation, and long-term relationship building within Reddit's ecosystem.",
+      "path": "agents/marketing/reddit-community-builder.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "reddit",
+        "community",
+        "engagement",
+        "thought-leadership",
+        "ama",
+        "reputation"
+      ],
+      "emoji": "💬",
+      "sha256": "c32332508eedc6c39401b4c993af4b610b4eba7cf7086dde4bdd87559542ac27"
+    },
+    {
+      "slug": "seo-specialist",
+      "name": "SEO Specialist",
+      "type": "agent",
+      "category": "marketing",
+      "description": "Expert search engine optimization strategist specializing in technical SEO, content optimization, link authority building, and sustainable organic search growth.",
+      "path": "agents/marketing/seo-specialist.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "seo",
+        "technical-seo",
+        "content-optimization",
+        "link-building",
+        "organic-search",
+        "analytics"
+      ],
+      "emoji": "🔍",
+      "sha256": "8bdd7cfbf4d3b2c3cf4c109115d11c0b2370eaa20096b7252d0e2a5841fa4790"
+    },
+    {
+      "slug": "short-video-editing-coach",
+      "name": "Short-Video Editing Coach",
+      "type": "agent",
+      "category": "marketing",
+      "description": "Hands-on short-video editing coach covering the full post-production pipeline across CapCut Pro, Premiere Pro, DaVinci Resolve, and Final Cut Pro.",
+      "path": "agents/marketing/short-video-editing-coach.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "video-editing",
+        "short-video",
+        "post-production",
+        "color-grading",
+        "motion-graphics",
+        "capcut"
+      ],
+      "emoji": "🎬",
+      "sha256": "3a1c351d080fe6a247fb189b92055560c591e6d466b04c7285d51e149eb545db"
+    },
+    {
+      "slug": "social-media-strategist",
+      "name": "Social Media Strategist",
+      "type": "agent",
+      "category": "marketing",
+      "description": "Expert social media strategist for cross-platform campaigns across LinkedIn, Twitter, and professional platforms with community building and thought leadership focus.",
+      "path": "agents/marketing/social-media-strategist.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "social-media",
+        "cross-platform",
+        "linkedin",
+        "twitter",
+        "community",
+        "thought-leadership"
+      ],
+      "emoji": "📣",
+      "sha256": "a2c7595c0f5e2e1f0f09456089ded2b61a8cc1127c6cdbd1f581e800570113ca"
+    },
+    {
+      "slug": "tiktok-strategist",
+      "name": "TikTok Strategist",
+      "type": "agent",
+      "category": "marketing",
+      "description": "Expert TikTok marketing specialist focused on viral content creation, algorithm optimization, creator partnerships, and community building for brand growth.",
+      "path": "agents/marketing/tiktok-strategist.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "tiktok",
+        "viral-content",
+        "short-video",
+        "creator-partnerships",
+        "gen-z",
+        "algorithm"
+      ],
+      "emoji": "🎵",
+      "sha256": "f4a6a752f48bbac5c67b957dd8ab891328a9a4136cabda04c74690a482f5c95f"
+    },
+    {
+      "slug": "twitter-engager",
+      "name": "Twitter Engager",
+      "type": "agent",
+      "category": "marketing",
+      "description": "Real-time Twitter conversation expert focused on building brand authority through authentic engagement, thought leadership, and community cultivation.",
+      "path": "agents/marketing/twitter-engager.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "twitter",
+        "real-time",
+        "engagement",
+        "thought-leadership",
+        "community",
+        "customer-support"
+      ],
+      "emoji": "🐦",
+      "sha256": "29810273b973bf93df38b1806e9eb65ef8585b82136dc77f3886d6bba8d92baf"
+    },
+    {
+      "slug": "wechat-official-account",
+      "name": "WeChat Official Account Manager",
+      "type": "agent",
+      "category": "marketing",
+      "description": "Expert WeChat Official Account strategist specializing in content marketing, subscriber engagement, conversion optimization, and multi-format content across China's most intimate business channel.",
+      "path": "agents/marketing/wechat-official-account.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "wechat",
+        "official-account",
+        "subscriber",
+        "content-marketing",
+        "mini-program",
+        "china-marketing"
+      ],
+      "emoji": "📱",
+      "sha256": "373ffa43d9b46351376ccc87785aebe5bf4afd8714d037efcef6a6374b0bd3cb"
+    },
+    {
+      "slug": "weibo-strategist",
+      "name": "Weibo Strategist",
+      "type": "agent",
+      "category": "marketing",
+      "description": "Full-spectrum Weibo operations expert covering trending topic campaigns, account positioning, Super Topic management, crisis communication, and viral content strategy.",
+      "path": "agents/marketing/weibo-strategist.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "weibo",
+        "china-social",
+        "trending-topics",
+        "crisis-management",
+        "viral-content",
+        "community"
+      ],
+      "emoji": "📢",
+      "sha256": "2577c853edbe40e7235dda7c6eed53e00ad0e59489e9dc9da2e932f06114d880"
+    },
+    {
+      "slug": "xiaohongshu-specialist",
+      "name": "Xiaohongshu Specialist",
+      "type": "agent",
+      "category": "marketing",
+      "description": "Lifestyle marketing expert specializing in Xiaohongshu platform strategy with trend identification, aesthetic storytelling, community engagement, and brand building.",
+      "path": "agents/marketing/xiaohongshu-specialist.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "xiaohongshu",
+        "china-lifestyle",
+        "aesthetic",
+        "community",
+        "ugc",
+        "trend-driven"
+      ],
+      "emoji": "📕",
+      "sha256": "8a2ab97453cad6f8b00eef8ca5255d7efb0663cf2edc947936b87953d36528c9"
+    },
+    {
+      "slug": "zhihu-strategist",
+      "name": "Zhihu Strategist",
+      "type": "agent",
+      "category": "marketing",
+      "description": "Expert Zhihu marketing specialist focused on thought leadership, community credibility, knowledge-driven engagement, and lead generation through authentic expertise sharing.",
+      "path": "agents/marketing/zhihu-strategist.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "zhihu",
+        "thought-leadership",
+        "knowledge-platform",
+        "china-marketing",
+        "authority-building",
+        "lead-generation"
+      ],
+      "emoji": "🧠",
+      "sha256": "0019d215d6d4e7114915063038c2db23725e5bfd09ee959c04512574949fb8fd"
+    },
+    {
+      "slug": "creative-strategist",
+      "name": "Creative Strategist",
+      "type": "agent",
+      "category": "paid-media",
+      "description": "Performance-driven ad creative specialist covering responsive search ads, Meta creative strategy, Performance Max assets, and systematic creative testing across paid media platforms.",
+      "path": "agents/paid-media/creative-strategist.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "ad-creative",
+        "rsa",
+        "meta-ads",
+        "performance-max",
+        "ab-testing",
+        "copywriting"
+      ],
+      "emoji": "🎨",
+      "sha256": "11fa7b85c5313691203aee91b32ab762cde839353172804fda584b6b16419ede"
+    },
+    {
+      "slug": "paid-media-auditor",
+      "name": "Paid Media Auditor",
+      "type": "agent",
+      "category": "paid-media",
+      "description": "Systematic advertising account evaluator covering 200+ checkpoints across Google Ads, Microsoft Ads, and Meta platforms with severity scoring and revenue impact projections.",
+      "path": "agents/paid-media/paid-media-auditor.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "audit",
+        "google-ads",
+        "meta-ads",
+        "microsoft-ads",
+        "optimization",
+        "compliance"
+      ],
+      "emoji": "🔍",
+      "sha256": "64673f97cf89b789849b354caca7d2f437216b5fdf2254baab57ceab34dc2f85"
+    },
+    {
+      "slug": "paid-social-strategist",
+      "name": "Paid Social Strategist",
+      "type": "agent",
+      "category": "paid-media",
+      "description": "Cross-platform paid social advertising specialist covering Meta, LinkedIn, TikTok, Pinterest, X, and Snapchat with full-funnel campaign architecture and audience engineering.",
+      "path": "agents/paid-media/paid-social-strategist.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "paid-social",
+        "meta-ads",
+        "linkedin-ads",
+        "tiktok-ads",
+        "full-funnel",
+        "audience-engineering"
+      ],
+      "emoji": "📱",
+      "sha256": "40c4c8037b73dedc0c114512bba84b04e2fdaf432263cbb8fcbba93106680d79"
+    },
+    {
+      "slug": "ppc-strategist",
+      "name": "PPC Strategist",
+      "type": "agent",
+      "category": "paid-media",
+      "description": "Senior paid media strategist for large-scale campaign architecture across Google Ads, Microsoft Advertising, and Amazon Ads with automated bidding and cross-platform coordination.",
+      "path": "agents/paid-media/ppc-strategist.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "ppc",
+        "google-ads",
+        "microsoft-ads",
+        "amazon-ads",
+        "bidding-strategy",
+        "campaign-architecture"
+      ],
+      "emoji": "💰",
+      "sha256": "14c65f60ca328851e5c1f82b038fc87f31a1dba25f0d33e4487481f7eaf7560a"
+    },
+    {
+      "slug": "programmatic-buyer",
+      "name": "Programmatic Buyer",
+      "type": "agent",
+      "category": "paid-media",
+      "description": "Display advertising and programmatic media buying specialist covering GDN, DV360, Trade Desk, partner media, and ABM display strategies with brand safety and viewability management.",
+      "path": "agents/paid-media/programmatic-buyer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "programmatic",
+        "display",
+        "gdn",
+        "dv360",
+        "abm",
+        "brand-safety",
+        "viewability"
+      ],
+      "emoji": "📺",
+      "sha256": "5b7c0115116b7353221a5b54f7d06c16c6d765979d25220077174c3ffc6b36fb"
+    },
+    {
+      "slug": "search-query-analyst",
+      "name": "Search Query Analyst",
+      "type": "agent",
+      "category": "paid-media",
+      "description": "Paid search optimization specialist focused on search term mining, negative keyword architecture, intent classification, and waste identification in Google Ads accounts.",
+      "path": "agents/paid-media/search-query-analyst.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "search-terms",
+        "negative-keywords",
+        "intent-classification",
+        "waste-reduction",
+        "query-sculpting",
+        "google-ads"
+      ],
+      "emoji": "🔎",
+      "sha256": "8a059abc6a4d7c32bd2f4650342a026c9d00994574d3ba3c8d0a66a44f6742b6"
+    },
+    {
+      "slug": "tracking-specialist",
+      "name": "Tracking Specialist",
+      "type": "agent",
+      "category": "paid-media",
+      "description": "Precision-focused tracking engineer building data foundations for paid media optimization with GTM, GA4, conversion APIs, server-side tagging, and privacy compliance.",
+      "path": "agents/paid-media/tracking-specialist.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "tracking",
+        "gtm",
+        "ga4",
+        "conversion-api",
+        "server-side",
+        "privacy-compliance",
+        "measurement"
+      ],
+      "emoji": "📏",
+      "sha256": "eb526782f1136a3ce24c048f0d4b8532d420557da69c37b6cb01b5296f0a6200"
+    },
+    {
+      "slug": "behavioral-nudge-engine",
+      "name": "Behavioral Nudge Engine",
+      "type": "agent",
+      "category": "product",
+      "description": "Behavioral psychology specialist adapting software interactions to maximize user motivation and reduce churn",
+      "path": "agents/product/behavioral-nudge-engine.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "behavioral-science",
+        "nudges",
+        "motivation",
+        "engagement",
+        "micro-sprints"
+      ],
+      "emoji": "🧠",
+      "sha256": "eae216a2f929a5e5f560f6fea0c1947f82c1cd9bc839a6a44bea9ee6e2065112"
+    },
+    {
+      "slug": "feedback-synthesizer",
+      "name": "Feedback Synthesizer",
+      "type": "agent",
+      "category": "product",
+      "description": "Expert in collecting, analyzing, and synthesizing user feedback to extract actionable product insights",
+      "path": "agents/product/feedback-synthesizer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "feedback",
+        "sentiment-analysis",
+        "product-insights",
+        "prioritization",
+        "user-voice"
+      ],
+      "emoji": "🔍",
+      "sha256": "fbf895379c3c7ad4fee4c5b00ef8829bfeaec6c0e095a6215b025a718d1ae971"
+    },
+    {
+      "slug": "sprint-prioritizer",
+      "name": "Sprint Prioritizer",
+      "type": "agent",
+      "category": "product",
+      "description": "Expert product manager specializing in agile sprint planning and data-driven feature prioritization",
+      "path": "agents/product/sprint-prioritizer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "sprint-planning",
+        "prioritization",
+        "agile",
+        "rice",
+        "backlog"
+      ],
+      "emoji": "🎯",
+      "sha256": "f89578ae090688959383884b085bfe3dd7660d70e237965be7bcc015410cbadf"
+    },
+    {
+      "slug": "trend-researcher",
+      "name": "Trend Researcher",
+      "type": "agent",
+      "category": "product",
+      "description": "Market intelligence specialist identifying emerging trends, competitive opportunities, and innovation signals",
+      "path": "agents/product/trend-researcher.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "trends",
+        "market-intelligence",
+        "competitive-analysis",
+        "forecasting",
+        "innovation"
+      ],
+      "emoji": "🔭",
+      "sha256": "a1f0bedc9b4c14330d3e2aa7cad6fdfb7b0123f16a557a3f44ed3e4c5ee7e162"
+    },
+    {
+      "slug": "experiment-tracker",
+      "name": "Experiment Tracker",
+      "type": "agent",
+      "category": "project-management",
+      "description": "Expert in experiment design, execution tracking, and data-driven decision making — manages A/B tests, feature experiments, and hypothesis validation",
+      "path": "agents/project-management/experiment-tracker.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "experimentation",
+        "ab-testing",
+        "statistics",
+        "hypothesis",
+        "data-driven",
+        "analytics"
+      ],
+      "emoji": "🧪",
+      "sha256": "3b8d5aad400e34ee40019a1200f2cd84ce26fc6b536beb010c9d8f56a1cc04a8"
+    },
+    {
+      "slug": "jira-workflow-steward",
+      "name": "Jira Workflow Steward",
+      "type": "agent",
+      "category": "project-management",
+      "description": "Delivery operations specialist — enforces Jira-linked Git workflows, traceable commits, structured pull requests, and release-safe branch strategy",
+      "path": "agents/project-management/jira-workflow-steward.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "jira",
+        "git",
+        "workflow",
+        "traceability",
+        "branch-strategy",
+        "pull-requests"
+      ],
+      "emoji": "📋",
+      "sha256": "5de906a913f0ecb5ea44c6c221edc7e36c11e54bad56d79c60ee9de7fb8d484f"
+    },
+    {
+      "slug": "project-shepherd",
+      "name": "Project Shepherd",
+      "type": "agent",
+      "category": "project-management",
+      "description": "Expert cross-functional project coordinator — specializes in timeline management, stakeholder alignment, and risk mitigation across teams",
+      "path": "agents/project-management/project-shepherd.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "project-management",
+        "stakeholder-alignment",
+        "cross-functional",
+        "risk-mitigation",
+        "timeline",
+        "coordination"
+      ],
+      "emoji": "🧑‍💼",
+      "sha256": "7bd20760c3e3aa1a1c13cd649bdd0bd710fca0db4b269dec47676825de3e89c3"
+    },
+    {
+      "slug": "senior-project-manager",
+      "name": "Senior Project Manager",
+      "type": "agent",
+      "category": "project-management",
+      "description": "Specification-to-tasks converter with persistent project memory — transforms site specifications into structured, actionable development tasks",
+      "path": "agents/project-management/senior-project-manager.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "project-management",
+        "task-breakdown",
+        "specifications",
+        "planning",
+        "acceptance-criteria",
+        "developer-workflow"
+      ],
+      "emoji": "📄",
+      "sha256": "94e622d04985fb928775f3c8d34541ff8a56a640e663622c4644982716f1a5de"
+    },
+    {
+      "slug": "studio-operations",
+      "name": "Studio Operations",
+      "type": "agent",
+      "category": "project-management",
+      "description": "Expert operations manager — specializes in day-to-day studio efficiency, process optimization, and resource coordination",
+      "path": "agents/project-management/studio-operations.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "operations",
+        "process-optimization",
+        "resource-management",
+        "efficiency",
+        "sop",
+        "studio"
+      ],
+      "emoji": "🏢",
+      "sha256": "32d57e231b65c885b1e44748f4f5a490755eb94778c05a74ecb6fde04997f330"
+    },
+    {
+      "slug": "studio-producer",
+      "name": "Studio Producer",
+      "type": "agent",
+      "category": "project-management",
+      "description": "Senior strategic leader — specializes in creative and technical project orchestration, resource allocation, and multi-project portfolio management",
+      "path": "agents/project-management/studio-producer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "production",
+        "portfolio-management",
+        "strategy",
+        "creative-leadership",
+        "resource-allocation",
+        "business-development"
+      ],
+      "emoji": "🎬",
+      "sha256": "116e06911271d5ad3368fbe95b8a4993af8755ab456cfd0d7d4166cc7ccd06d3"
+    },
+    {
+      "slug": "account-strategist",
+      "name": "Account Strategist",
+      "type": "agent",
+      "category": "sales",
+      "description": "Post-sale revenue specialist focused on transforming initial customer wins into sustainable, multi-threaded platform relationships through systematic account development.",
+      "path": "agents/sales/account-strategist.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "account-management",
+        "expansion",
+        "nrr",
+        "qbr",
+        "multi-threading",
+        "customer-success"
+      ],
+      "emoji": "🎯",
+      "sha256": "e4eebb2d83c2ba0ca3afc938e01145a9aa258d5dd4236ce7785fb5ece656c18a"
+    },
+    {
+      "slug": "deal-strategist",
+      "name": "Deal Strategist",
+      "type": "agent",
+      "category": "sales",
+      "description": "Senior pipeline architect applying MEDDPICC qualification methodology and competitive positioning to B2B sales cycles with rigorous opportunity assessment.",
+      "path": "agents/sales/deal-strategist.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "deal-strategy",
+        "meddpicc",
+        "qualification",
+        "competitive-positioning",
+        "forecast",
+        "b2b-sales"
+      ],
+      "emoji": "🎲",
+      "sha256": "1bd82035e56c3ad69b6679d2d5b5737c02eefd46b94de47c37e9513fa8127245"
+    },
+    {
+      "slug": "discovery-coach",
+      "name": "Discovery Coach",
+      "type": "agent",
+      "category": "sales",
+      "description": "Sales methodology specialist helping account executives and SDRs become elite buyer interviewers through SPIN, Gap Selling, and Sandler Pain Funnel frameworks.",
+      "path": "agents/sales/discovery-coach.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "discovery",
+        "sales-methodology",
+        "spin-selling",
+        "gap-selling",
+        "sandler",
+        "coaching"
+      ],
+      "emoji": "🔎",
+      "sha256": "ca16afdc44388b7f0bfa21222f509be7e8e658132c7e4f0100b10ad9bd07f0fe"
+    },
+    {
+      "slug": "outbound-strategist",
+      "name": "Outbound Strategist",
+      "type": "agent",
+      "category": "sales",
+      "description": "Signal-based sales specialist focused on precision prospecting with buying signal detection, multi-channel sequences, and relevance-first outreach.",
+      "path": "agents/sales/outbound-strategist.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "outbound",
+        "prospecting",
+        "buying-signals",
+        "multi-channel",
+        "icp",
+        "pipeline-generation"
+      ],
+      "emoji": "📨",
+      "sha256": "616137e6a317f71769cc8f6b82c9324d723df73ab3fc4f9648ef5c42f42bded9"
+    },
+    {
+      "slug": "pipeline-analyst",
+      "name": "Pipeline Analyst",
+      "type": "agent",
+      "category": "sales",
+      "description": "Revenue operations specialist transforming pipeline data into strategic decisions through velocity analysis, deal health scoring, forecasting, and intervention recommendations.",
+      "path": "agents/sales/pipeline-analyst.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "pipeline",
+        "forecasting",
+        "revenue-operations",
+        "deal-scoring",
+        "analytics",
+        "meddpicc"
+      ],
+      "emoji": "📊",
+      "sha256": "43a39e0abeb6dae721b0c0a5644238c96e77af28f8e94d4664c1a770e6509d43"
+    },
+    {
+      "slug": "proposal-strategist",
+      "name": "Proposal Strategist",
+      "type": "agent",
+      "category": "sales",
+      "description": "Strategic proposal architect who transforms RFPs into persuasive win narratives using three-act structure, integrated win themes, and evidence-backed positioning.",
+      "path": "agents/sales/proposal-strategist.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "proposals",
+        "rfp",
+        "win-themes",
+        "storytelling",
+        "competitive-positioning",
+        "executive-summary"
+      ],
+      "emoji": "📝",
+      "sha256": "45292e2f01818842ea2272db7322abc5c8c26000c7ffbd44f9406141cd9de701"
+    },
+    {
+      "slug": "sales-coach",
+      "name": "Sales Coach",
+      "type": "agent",
+      "category": "sales",
+      "description": "Expert in rep development and pipeline management using Socratic coaching methods, behavioral feedback, and evidence-based forecast discipline.",
+      "path": "agents/sales/sales-coach.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "coaching",
+        "rep-development",
+        "pipeline-review",
+        "call-coaching",
+        "forecast",
+        "sales-methodology"
+      ],
+      "emoji": "🏆",
+      "sha256": "cf8012b253655314904bd10734447f4dcee20b70f2e49d4947b0932615b991bc"
+    },
+    {
+      "slug": "sales-engineer",
+      "name": "Sales Engineer",
+      "type": "agent",
+      "category": "sales",
+      "description": "Senior pre-sales engineer bridging product capabilities and buyer business outcomes through technical discovery, demo engineering, POC execution, and competitive positioning.",
+      "path": "agents/sales/sales-engineer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "pre-sales",
+        "demo",
+        "poc",
+        "technical-discovery",
+        "competitive-positioning",
+        "solution-architecture"
+      ],
+      "emoji": "🔧",
+      "sha256": "f0a20993cbdc9d30a6f427966bcd17f8b3e4307a01648eec9d6f2c3df360c752"
+    },
+    {
+      "slug": "macos-spatial-metal-engineer",
+      "name": "macOS Spatial/Metal Engineer",
+      "type": "agent",
+      "category": "spatial-computing",
+      "description": "Native Swift and Metal specialist — builds high-performance 3D rendering systems and spatial computing experiences for macOS and Vision Pro",
+      "path": "agents/spatial-computing/macos-spatial-metal-engineer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "metal",
+        "swift",
+        "visionos",
+        "3d-rendering",
+        "spatial-computing",
+        "gpu"
+      ],
+      "emoji": "🍎",
+      "sha256": "ff3bd93acd0bda35e00d411e61a9c8c750a1eee7e5ce7f5054fff4b36012eabe"
+    },
+    {
+      "slug": "terminal-integration-specialist",
+      "name": "Terminal Integration Specialist",
+      "type": "agent",
+      "category": "spatial-computing",
+      "description": "Terminal emulation, text rendering optimization, and SwiftTerm integration for modern Swift applications",
+      "path": "agents/spatial-computing/terminal-integration-specialist.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "terminal",
+        "swiftterm",
+        "swift",
+        "text-rendering",
+        "vt100",
+        "ssh"
+      ],
+      "emoji": "🖥",
+      "sha256": "1295743e96492f97d845b5485c2cd3d83fbd5b6840aa5bd655a27f7b9e5d5672"
+    },
+    {
+      "slug": "visionos-spatial-engineer",
+      "name": "visionOS Spatial Engineer",
+      "type": "agent",
+      "category": "spatial-computing",
+      "description": "Native visionOS spatial computing — SwiftUI volumetric interfaces and Liquid Glass design implementation",
+      "path": "agents/spatial-computing/visionos-spatial-engineer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "visionos",
+        "swiftui",
+        "realitykit",
+        "spatial-computing",
+        "liquid-glass",
+        "volumetric"
+      ],
+      "emoji": "🥽",
+      "sha256": "78169ffeaae3af6ece05206fa701c5504a4cc169375ccb3b09236cf8f0758681"
+    },
+    {
+      "slug": "xr-cockpit-interaction-specialist",
+      "name": "XR Cockpit Interaction Specialist",
+      "type": "agent",
+      "category": "spatial-computing",
+      "description": "Designs and develops immersive cockpit-based control systems for XR environments with physics-based constraints and multimodal input",
+      "path": "agents/spatial-computing/xr-cockpit-interaction-specialist.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "xr",
+        "cockpit",
+        "interaction-design",
+        "spatial-ui",
+        "hand-tracking",
+        "simulation"
+      ],
+      "emoji": "🕹",
+      "sha256": "74f73a91434d3f1d9d21750a7790c1a8419d6875d7ac0bfaaca8880549f47185"
+    },
+    {
+      "slug": "xr-immersive-developer",
+      "name": "XR Immersive Developer",
+      "type": "agent",
+      "category": "spatial-computing",
+      "description": "Expert WebXR and immersive technology developer — specializes in browser-based AR/VR/XR applications across A-Frame, Three.js, and Babylon.js",
+      "path": "agents/spatial-computing/xr-immersive-developer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "webxr",
+        "threejs",
+        "aframe",
+        "babylonjs",
+        "ar",
+        "vr",
+        "browser"
+      ],
+      "emoji": "🌐",
+      "sha256": "a59a245fff9938801364b8235ed36055c2a011a6eeda0df9368d187abc5a493d"
+    },
+    {
+      "slug": "xr-interface-architect",
+      "name": "XR Interface Architect",
+      "type": "agent",
+      "category": "spatial-computing",
+      "description": "Spatial UI/UX designer — specializes in immersive 3D environments with human-centered, comfort-first interface design",
+      "path": "agents/spatial-computing/xr-interface-architect.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "xr",
+        "spatial-ui",
+        "ux-design",
+        "interaction-design",
+        "accessibility",
+        "ergonomics"
+      ],
+      "emoji": "🧠",
+      "sha256": "55b327b4f5903a43e5fed928f25c10df8cc8f8f6025cf616cdaf7d174615e801"
+    },
+    {
+      "slug": "accounts-payable-agent",
+      "name": "Accounts Payable Agent",
+      "type": "agent",
+      "category": "specialized",
+      "description": "Autonomous payment operations specialist — handles vendor invoices, contractor payments, and recurring bills across ACH, wire, and crypto rails",
+      "path": "agents/specialized/accounts-payable-agent.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "payments",
+        "accounts-payable",
+        "invoices",
+        "automation",
+        "audit",
+        "finance"
+      ],
+      "emoji": "💳",
+      "sha256": "4dcf6946a189371bc4e00d9ecbbada96e5ff07fa017598b39b474aaf6e23a948"
+    },
+    {
+      "slug": "agentic-identity-trust",
+      "name": "Agentic Identity and Trust Architect",
+      "type": "agent",
+      "category": "specialized",
+      "description": "Designs identity, authentication, and trust verification systems for autonomous AI agents in multi-agent environments",
+      "path": "agents/specialized/agentic-identity-trust.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "identity",
+        "trust",
+        "authentication",
+        "cryptography",
+        "multi-agent",
+        "audit"
+      ],
+      "emoji": "🔐",
+      "sha256": "33b0894b39aeabfaa79f37935607751558894a4182d4d77d681b11d84a3c718d"
+    },
+    {
+      "slug": "agents-orchestrator",
+      "name": "Agents Orchestrator",
+      "type": "agent",
+      "category": "specialized",
+      "description": "Autonomous pipeline manager — orchestrates the entire development workflow from specification through production with quality gate enforcement",
+      "path": "agents/specialized/agents-orchestrator.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "orchestration",
+        "pipeline",
+        "quality-gates",
+        "automation",
+        "multi-agent",
+        "workflow"
+      ],
+      "emoji": "🎛",
+      "sha256": "aac6a142545b6f94780a8ae03fa8760865f555f0e131a038e733ca1381d1b9b0"
+    },
+    {
+      "slug": "automation-governance-architect",
+      "name": "Automation Governance Architect",
+      "type": "agent",
+      "category": "specialized",
+      "description": "Governance-first architect for business automations — audits value, risk, and maintainability before implementation with n8n-first stack",
+      "path": "agents/specialized/automation-governance-architect.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "automation",
+        "governance",
+        "n8n",
+        "workflow",
+        "risk-assessment",
+        "operations"
+      ],
+      "emoji": "⚙️",
+      "sha256": "6282d3ec2f937dbf738cd567e788027b99fd42698547f8e648f29b447c887cc0"
+    },
+    {
+      "slug": "blockchain-security-auditor",
+      "name": "Blockchain Security Auditor",
+      "type": "agent",
+      "category": "specialized",
+      "description": "Expert smart contract security auditor — specializes in vulnerability detection, formal verification, exploit analysis, and audit report writing for DeFi protocols",
+      "path": "agents/specialized/blockchain-security-auditor.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "blockchain",
+        "security",
+        "smart-contracts",
+        "defi",
+        "audit",
+        "solidity"
+      ],
+      "emoji": "🛡",
+      "sha256": "3f07ecb9147eac0aeec92148d788e02c7ee5d9f987dc5d832fc7e073f4852ed7"
+    },
+    {
+      "slug": "compliance-auditor",
+      "name": "Compliance Auditor",
+      "type": "agent",
+      "category": "specialized",
+      "description": "Expert technical compliance auditor — specializes in SOC 2, ISO 27001, HIPAA, and PCI-DSS from readiness assessment through evidence collection to certification",
+      "path": "agents/specialized/compliance-auditor.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "compliance",
+        "soc2",
+        "iso27001",
+        "hipaa",
+        "audit",
+        "controls"
+      ],
+      "emoji": "📋",
+      "sha256": "7de54e9281b4ed5636a0496419b0165efa635308972c029648e6c93ffb05b665"
+    },
+    {
+      "slug": "corporate-training-designer",
+      "name": "Corporate Training Designer",
+      "type": "agent",
+      "category": "specialized",
+      "description": "Enterprise training system architect — proficient in needs analysis, instructional design, blended learning, trainer development, and training effectiveness evaluation",
+      "path": "agents/specialized/corporate-training-designer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "training",
+        "instructional-design",
+        "enterprise-learning",
+        "kirkpatrick",
+        "curriculum",
+        "onboarding"
+      ],
+      "emoji": "📚",
+      "sha256": "315e761af1a4b46386d154d8c2a8585d37f544e282d886a1db98745c10f78cd1"
+    },
+    {
+      "slug": "cultural-intelligence-strategist",
+      "name": "Cultural Intelligence Strategist",
+      "type": "agent",
+      "category": "specialized",
+      "description": "CQ specialist — detects invisible exclusion, researches global context, and ensures software resonates authentically across intersectional identities",
+      "path": "agents/specialized/cultural-intelligence-strategist.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "cultural-intelligence",
+        "inclusion",
+        "accessibility",
+        "localization",
+        "global-design",
+        "anti-bias"
+      ],
+      "emoji": "🌍",
+      "sha256": "3e904e78f9d8b7198cdca684a40b3da7c7281be87b60a7f25e7c97f9884e4c6e"
+    },
+    {
+      "slug": "data-consolidation-agent",
+      "name": "Data Consolidation Agent",
+      "type": "agent",
+      "category": "specialized",
+      "description": "Strategic data synthesizer — transforms raw sales metrics into actionable, real-time dashboards with territory performance and pipeline visibility",
+      "path": "agents/specialized/data-consolidation-agent.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "data",
+        "dashboards",
+        "sales-metrics",
+        "analytics",
+        "reporting",
+        "real-time"
+      ],
+      "emoji": "📊",
+      "sha256": "4943bcbe009b0bf89e161a777ff9f0bd2e7038e4d9055973a41f1ea93d9d22f6"
+    },
+    {
+      "slug": "developer-advocate",
+      "name": "Developer Advocate",
+      "type": "agent",
+      "category": "specialized",
+      "description": "Bridge between product teams and external developers — focuses on community building, technical content creation, and developer experience optimization",
+      "path": "agents/specialized/developer-advocate.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "developer-relations",
+        "devrel",
+        "community",
+        "technical-content",
+        "developer-experience",
+        "documentation"
+      ],
+      "emoji": "📣",
+      "sha256": "49ce2e40eb8014fcae77c842ec3e58dafbc724f7e672f648632b9971cc34da16"
+    },
+    {
+      "slug": "document-generator",
+      "name": "Document Generator",
+      "type": "agent",
+      "category": "specialized",
+      "description": "Specialist in programmatic document creation — generates professional PDFs, presentations, spreadsheets, and Word documents",
+      "path": "agents/specialized/document-generator.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "documents",
+        "pdf",
+        "presentations",
+        "spreadsheets",
+        "automation",
+        "templates"
+      ],
+      "emoji": "📄",
+      "sha256": "6724342084a1d3d470aca65650e255ac722fc384f5d2d3a3e81e4f1657b61127"
+    },
+    {
+      "slug": "government-digital-presales",
+      "name": "Government Digital Presales Consultant",
+      "type": "agent",
+      "category": "specialized",
+      "description": "China ToG digital transformation presales specialist — masters policy tracking, solution design, bid execution, and compliance for government procurement",
+      "path": "agents/specialized/government-digital-presales.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "government",
+        "presales",
+        "china",
+        "digital-transformation",
+        "procurement",
+        "compliance"
+      ],
+      "emoji": "🏛",
+      "sha256": "72054f64f7ed2c002b07b140d492f0c7841d384b933da7743085b8fc4d391071"
+    },
+    {
+      "slug": "healthcare-marketing-compliance",
+      "name": "Healthcare Marketing Compliance",
+      "type": "agent",
+      "category": "specialized",
+      "description": "Healthcare marketing compliance specialist — guides content review and regulatory navigation across China's pharmaceutical, device, and health supplement sectors",
+      "path": "agents/specialized/healthcare-marketing-compliance.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "healthcare",
+        "compliance",
+        "marketing",
+        "china",
+        "pharmaceutical",
+        "regulation"
+      ],
+      "emoji": "🏥",
+      "sha256": "95687baff3fa468331552aeb093a03a91667ec626780fc579ca0f1da0258d242"
+    },
+    {
+      "slug": "identity-graph-operator",
+      "name": "Identity Graph Operator",
+      "type": "agent",
+      "category": "specialized",
+      "description": "Operates a shared identity graph for multi-agent systems — ensures every agent gets the same canonical answer for entity resolution, deterministically",
+      "path": "agents/specialized/identity-graph-operator.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "identity",
+        "entity-resolution",
+        "multi-agent",
+        "graph",
+        "matching",
+        "deduplication"
+      ],
+      "emoji": "🕸",
+      "sha256": "5b9f8f2f5dd04c121987825416a38b6c4ac27467ed701530681582e3f39a7c7d"
+    },
+    {
+      "slug": "lsp-index-engineer",
+      "name": "LSP/Index Engineer",
+      "type": "agent",
+      "category": "specialized",
+      "description": "Language Server Protocol specialist — builds unified code intelligence systems through LSP client orchestration and semantic indexing",
+      "path": "agents/specialized/lsp-index-engineer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "lsp",
+        "code-intelligence",
+        "semantic-indexing",
+        "typescript",
+        "graph",
+        "performance"
+      ],
+      "emoji": "🔎",
+      "sha256": "78ef979ae3a9adee1809fca54f7a42b9d34c0cc32fe97062d1341c8ca8b40a16"
+    },
+    {
+      "slug": "mcp-builder",
+      "name": "MCP Builder",
+      "type": "agent",
+      "category": "specialized",
+      "description": "Specialist in developing Model Context Protocol servers — creates custom tools for API integrations, database access, and workflow automation",
+      "path": "agents/specialized/mcp-builder.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "model-context-protocol",
+        "tools",
+        "api-integration",
+        "agent-tooling",
+        "zod"
+      ],
+      "emoji": "🔧",
+      "sha256": "99ede9e2ce0fb9c6fa1d653163c0240e78be6c49d1cb459fa11c23359fb01c9f"
+    },
+    {
+      "slug": "model-qa",
+      "name": "Model QA Specialist",
+      "type": "agent",
+      "category": "specialized",
+      "description": "Independent model QA expert — audits ML and statistical models end-to-end from documentation review and data reconstruction to calibration testing and audit-grade reporting",
+      "path": "agents/specialized/model-qa.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "model-qa",
+        "machine-learning",
+        "audit",
+        "statistics",
+        "shap",
+        "calibration"
+      ],
+      "emoji": "🔬",
+      "sha256": "8baf5fba9f24e49d996ca9e84cfba846f20acc4e4a0f669554431359cf260817"
+    },
+    {
+      "slug": "recruitment-specialist",
+      "name": "Recruitment Specialist",
+      "type": "agent",
+      "category": "specialized",
+      "description": "Expert recruitment operations and talent acquisition specialist — skilled in China's hiring platforms, talent assessment frameworks, and labor law compliance",
+      "path": "agents/specialized/recruitment-specialist.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "recruitment",
+        "talent-acquisition",
+        "china",
+        "hiring",
+        "labor-law",
+        "employer-brand"
+      ],
+      "emoji": "🎯",
+      "sha256": "366a006400691a51f5dbadf8ded244e501f566d13dd8511c13405d0aea8245a0"
+    },
+    {
+      "slug": "report-distribution-agent",
+      "name": "Report Distribution Agent",
+      "type": "agent",
+      "category": "specialized",
+      "description": "Automates distribution of consolidated sales reports to representatives based on territorial parameters with audit trails",
+      "path": "agents/specialized/report-distribution-agent.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "reports",
+        "distribution",
+        "automation",
+        "email",
+        "scheduling",
+        "audit"
+      ],
+      "emoji": "📤",
+      "sha256": "06c4f99288222a7563920406c53056c84aedcf10fece27759e92123214e198c9"
+    },
+    {
+      "slug": "sales-data-extraction-agent",
+      "name": "Sales Data Extraction Agent",
+      "type": "agent",
+      "category": "specialized",
+      "description": "Intelligent data pipeline specialist — monitors Excel files and extracts key sales metrics (MTD, YTD, Year End) for internal live reporting",
+      "path": "agents/specialized/sales-data-extraction-agent.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "data-extraction",
+        "excel",
+        "sales-metrics",
+        "pipeline",
+        "automation",
+        "reporting"
+      ],
+      "emoji": "📊",
+      "sha256": "93035a921f62693a99065bce3219af468fc7daa44eec6f2b91b9f8e5e32a45e5"
+    },
+    {
+      "slug": "study-abroad-advisor",
+      "name": "Study Abroad Advisor",
+      "type": "agent",
+      "category": "specialized",
+      "description": "Full-spectrum study abroad planning expert — covers US, UK, Canada, Australia, Europe, Hong Kong, and Singapore for undergraduate, master's, and PhD applications",
+      "path": "agents/specialized/study-abroad-advisor.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "study-abroad",
+        "education",
+        "applications",
+        "china",
+        "admissions",
+        "planning"
+      ],
+      "emoji": "🎓",
+      "sha256": "09f8433da21f0984e6a04450afa8fde8f32f49c4cae8fafbf6360c67a645b333"
+    },
+    {
+      "slug": "supply-chain-strategist",
+      "name": "Supply Chain Strategist",
+      "type": "agent",
+      "category": "specialized",
+      "description": "Expert supply chain management and procurement strategy specialist — skilled in supplier development, strategic sourcing, quality control, and digitalization",
+      "path": "agents/specialized/supply-chain-strategist.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "supply-chain",
+        "procurement",
+        "sourcing",
+        "quality-control",
+        "inventory",
+        "china-manufacturing"
+      ],
+      "emoji": "🔗",
+      "sha256": "bc1bc8256a1890c04d4d58f3a181883f9231b66aef1421c525b9c9588b47eeb6"
+    },
+    {
+      "slug": "zk-steward",
+      "name": "ZK Steward",
+      "type": "agent",
+      "category": "specialized",
+      "description": "Knowledge-base steward in the spirit of Luhmann's Zettelkasten — enforces atomic notes, connectivity, and validation loops with domain expert switching",
+      "path": "agents/specialized/zk-steward.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "zettelkasten",
+        "knowledge-management",
+        "note-taking",
+        "linking",
+        "atomic-notes",
+        "domain-expertise"
+      ],
+      "emoji": "🗃",
+      "sha256": "5c4229e4c30ead68922f6a7c913030c48c90a3bae063cf0df15128724c48fd60"
+    },
+    {
+      "slug": "analytics-reporter",
+      "name": "Analytics Reporter",
+      "type": "agent",
+      "category": "support",
+      "description": "Expert data analyst transforming raw data into actionable business insights through dashboards and statistical analysis",
+      "path": "agents/support/analytics-reporter.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "analytics",
+        "dashboards",
+        "business-intelligence",
+        "data-analysis",
+        "statistics"
+      ],
+      "emoji": "📊",
+      "sha256": "9507158e86c135af7449637077b74fabf43b5db7bf11624b8f2e78a5059dae68"
+    },
+    {
+      "slug": "executive-summary-generator",
+      "name": "Executive Summary Generator",
+      "type": "agent",
+      "category": "support",
+      "description": "Consultant-grade AI specialist transforming complex business inputs into actionable executive summaries",
+      "path": "agents/support/executive-summary-generator.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "executive-summary",
+        "strategy",
+        "consulting",
+        "c-suite",
+        "communication"
+      ],
+      "emoji": "📝",
+      "sha256": "c9f4d0887a47f7b1619cc9f239d66dbeca8bd6a13e105f1b6de290dc4d490112"
+    },
+    {
+      "slug": "finance-tracker",
+      "name": "Finance Tracker",
+      "type": "agent",
+      "category": "support",
+      "description": "Expert financial analyst and controller specializing in planning, budgeting, cash flow management, and performance analysis",
+      "path": "agents/support/finance-tracker.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "finance",
+        "budgeting",
+        "cash-flow",
+        "forecasting",
+        "compliance"
+      ],
+      "emoji": "💰",
+      "sha256": "0eb8f5dcc609027a8a48af685db861aa6d76439777a3a06998297431d3ca8ae5"
+    },
+    {
+      "slug": "infrastructure-maintainer",
+      "name": "Infrastructure Maintainer",
+      "type": "agent",
+      "category": "support",
+      "description": "Expert infrastructure specialist focused on system reliability, performance optimization, and technical operations management",
+      "path": "agents/support/infrastructure-maintainer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "infrastructure",
+        "reliability",
+        "devops",
+        "monitoring",
+        "security"
+      ],
+      "emoji": "🏢",
+      "sha256": "944b9b135a5d0a6683416862c66c57060775c6eb4d7a1c98b3a55e6b1647cca0"
+    },
+    {
+      "slug": "legal-compliance-checker",
+      "name": "Legal Compliance Checker",
+      "type": "agent",
+      "category": "support",
+      "description": "Expert legal and compliance specialist ensuring business operations comply with laws across multiple jurisdictions",
+      "path": "agents/support/legal-compliance-checker.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "legal",
+        "compliance",
+        "gdpr",
+        "privacy",
+        "regulatory"
+      ],
+      "emoji": "⚖️",
+      "sha256": "625518741ac13b6b1dbcf5e69c1938e8ee3017c08ebd117be18465eb90c6a27b"
+    },
+    {
+      "slug": "support-responder",
+      "name": "Support Responder",
+      "type": "agent",
+      "category": "support",
+      "description": "Expert customer support specialist delivering exceptional service, first-contact resolution, and customer advocacy",
+      "path": "agents/support/support-responder.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "customer-support",
+        "resolution",
+        "empathy",
+        "knowledge-base",
+        "advocacy"
+      ],
+      "emoji": "💬",
+      "sha256": "ce932db8dfa8049f1dd9e20a8302a0fdae68bea5eebd5b476a9a06b3c9183dc3"
+    },
+    {
+      "slug": "accessibility-auditor",
+      "name": "Accessibility Auditor",
+      "type": "agent",
+      "category": "testing",
+      "description": "Expert accessibility specialist who audits interfaces against WCAG standards, tests with assistive technologies, and ensures inclusive design",
+      "path": "agents/testing/accessibility-auditor.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "accessibility",
+        "wcag",
+        "screen-reader",
+        "inclusive-design",
+        "audit"
+      ],
+      "emoji": "♿",
+      "sha256": "6a0c07da66e21316541dc83fa6df819fc80f5536d392914dc7d101fb88f5a100"
+    },
+    {
+      "slug": "api-tester",
+      "name": "API Tester",
+      "type": "agent",
+      "category": "testing",
+      "description": "Expert API testing specialist focused on comprehensive validation, performance testing, and security assessment across systems",
+      "path": "agents/testing/api-tester.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "api",
+        "testing",
+        "security",
+        "performance",
+        "automation"
+      ],
+      "emoji": "🔌",
+      "sha256": "92c83557c51ceed9f6e33a2a06ed8826d67d0b4811614da86bb6cb3de2a51b8b"
+    },
+    {
+      "slug": "evidence-collector",
+      "name": "Evidence Collector",
+      "type": "agent",
+      "category": "testing",
+      "description": "Screenshot-obsessed, fantasy-allergic QA specialist who demands visual proof before approving anything",
+      "path": "agents/testing/evidence-collector.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "qa",
+        "screenshots",
+        "evidence",
+        "verification",
+        "skeptical"
+      ],
+      "emoji": "📸",
+      "sha256": "3153cac42926c220ab8c4df16413642d44ec9d7c409994285751ac5565436fa8"
+    },
+    {
+      "slug": "performance-benchmarker",
+      "name": "Performance Benchmarker",
+      "type": "agent",
+      "category": "testing",
+      "description": "Expert specialist focused on measuring, analyzing, and improving system performance across applications and infrastructure",
+      "path": "agents/testing/performance-benchmarker.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "performance",
+        "benchmarking",
+        "load-testing",
+        "core-web-vitals",
+        "optimization"
+      ],
+      "emoji": "⏱️",
+      "sha256": "c0a431c436e523fbddcbcb66be869e8e665415ca9cf8efbaeb7e650a6cc16aec"
+    },
+    {
+      "slug": "reality-checker",
+      "name": "Reality Checker",
+      "type": "agent",
+      "category": "testing",
+      "description": "Skeptical integration specialist who stops fantasy approvals and requires overwhelming proof for production readiness",
+      "path": "agents/testing/reality-checker.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "qa",
+        "certification",
+        "skeptical",
+        "evidence-based",
+        "production-readiness"
+      ],
+      "emoji": "🧐",
+      "sha256": "2111fe15a9623656e07d83605caf4ebc18e414c7afe69ba5b6d8b86c2c7da225"
+    },
+    {
+      "slug": "test-results-analyzer",
+      "name": "Test Results Analyzer",
+      "type": "agent",
+      "category": "testing",
+      "description": "Expert test analysis specialist focused on comprehensive evaluation, quality metrics, and actionable insights from test data",
+      "path": "agents/testing/test-results-analyzer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "test-analysis",
+        "quality-metrics",
+        "defect-prediction",
+        "release-readiness",
+        "statistics"
+      ],
+      "emoji": "📋",
+      "sha256": "1de96f859257a033308d9a284d88438d0efe0d4f759e9346a34a544f6771d4fc"
+    },
+    {
+      "slug": "tool-evaluator",
+      "name": "Tool Evaluator",
+      "type": "agent",
+      "category": "testing",
+      "description": "Expert technology assessment specialist focused on evaluating, testing, and recommending tools and platforms for business use",
+      "path": "agents/testing/tool-evaluator.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "tool-evaluation",
+        "technology-assessment",
+        "roi",
+        "vendor-analysis",
+        "adoption"
+      ],
+      "emoji": "🔧",
+      "sha256": "c90a9fc47846500db7f11a05b7dbf56bdd5fc532c542f338a36bfa35213b40df"
+    },
+    {
+      "slug": "workflow-optimizer",
+      "name": "Workflow Optimizer",
+      "type": "agent",
+      "category": "testing",
+      "description": "Expert process improvement specialist analyzing, optimizing, and automating workflows across business functions",
+      "path": "agents/testing/workflow-optimizer.md",
+      "readme": null,
+      "version": "1.0.0",
+      "tags": [
+        "workflow",
+        "optimization",
+        "automation",
+        "lean",
+        "process-improvement"
+      ],
+      "emoji": "⚡",
+      "sha256": "694c29a4e28e5427100b4bae10f58ea3386b87774abe39801c96e69e3b6daec3"
     }
   ],
   "collections": [
@@ -134,14 +2969,23 @@
       "name": "Engineering Essentials",
       "description": "Core engineering skills and agents for code quality, security, and system design",
       "emoji": "⚡",
-      "items": ["code-reviewer", "security-audit", "security-engineer", "software-architect"]
+      "items": [
+        "code-reviewer",
+        "security-audit",
+        "security-engineer",
+        "software-architect"
+      ]
     },
     {
       "slug": "devops-starter",
       "name": "DevOps Starter",
       "description": "Essential DevOps automation, reliability, and deployment tools",
       "emoji": "🚀",
-      "items": ["devops-automator", "sre", "deploy-check"]
+      "items": [
+        "devops-automator",
+        "sre",
+        "deploy-check"
+      ]
     }
   ]
 }
