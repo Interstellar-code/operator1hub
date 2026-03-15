@@ -3,5 +3,5 @@
   "name": "DevOps Starter",
   "description": "Essential DevOps automation, reliability, and deployment tools",
   "emoji": "🚀",
-  "items": ["devops-automator", "sre-agent", "deploy-check"]
+  "items": ["devops-automator", "sre", "deploy-check"]
 }

@@ -3,5 +3,5 @@
   "name": "Engineering Essentials",
   "description": "Core engineering skills and agents for code quality, security, and system design",
   "emoji": "⚡",
-  "items": ["code-reviewer", "security-audit", "security-engineer", "architect"]
+  "items": ["code-reviewer", "security-audit", "security-engineer", "software-architect"]
 }

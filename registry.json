@@ -60,48 +60,48 @@
       "name": "Security Engineer",
       "type": "agent",
       "category": "engineering",
-      "description": "OWASP-focused security review persona — threat modeling, vulnerability assessment, secure design",
+      "description": "Expert application security engineer specializing in threat modeling, vulnerability assessment, secure code review, and security architecture design",
       "path": "agents/security-engineer.md",
       "version": "1.0.0",
-      "tags": ["security", "owasp", "threat-modeling", "audit"],
-      "emoji": "🛡️",
-      "sha256": "dfcf4ca0327d12a459b400f7ea49e408294eef5320a5b23082d94b97dce69d03"
+      "tags": ["security", "threat-modeling", "vulnerability-assessment", "appsec", "devsecops"],
+      "emoji": "🔒",
+      "sha256": "db6610209b8ff3191d567c0ef26bcfe043f71298a942f4e6a86f7468239a291b"
     },
     {
-      "slug": "sre-agent",
-      "name": "SRE Agent",
+      "slug": "sre",
+      "name": "SRE (Site Reliability Engineer)",
       "type": "agent",
-      "category": "devops",
-      "description": "Site reliability engineering — observability, incident response, SLOs, and production readiness",
-      "path": "agents/sre-agent.md",
+      "category": "engineering",
+      "description": "Expert site reliability engineer specializing in SLOs, error budgets, observability, chaos engineering, and toil reduction",
+      "path": "agents/sre.md",
       "version": "1.0.0",
-      "tags": ["sre", "reliability", "observability", "incident-response", "slo"],
-      "emoji": "📡",
-      "sha256": "f567a8b4d3aea9f73eefef42f2b46dc049fb4d9115d0df00a5462331cf573486"
+      "tags": ["sre", "reliability", "slo", "observability", "chaos-engineering"],
+      "emoji": "🛡️",
+      "sha256": "b310ebea519dc090e92655e0e147b2bc456a17f59268988211ccb92794d4de83"
     },
     {
-      "slug": "architect",
+      "slug": "software-architect",
       "name": "Software Architect",
       "type": "agent",
       "category": "engineering",
-      "description": "System design, architecture decisions, trade-off analysis, and technical strategy",
-      "path": "agents/architect.md",
+      "description": "Expert software architect specializing in system design, domain-driven design, architectural patterns, and technical decision-making for scalable systems",
+      "path": "agents/software-architect.md",
       "version": "1.0.0",
-      "tags": ["architecture", "system-design", "trade-offs", "scalability"],
-      "emoji": "🏗️",
-      "sha256": "58619bbb2056b4d376d008743d85af4240542583f6e819aaeedffe98ba8637ba"
+      "tags": ["architecture", "system-design", "ddd", "trade-offs", "adr"],
+      "emoji": "🏛️",
+      "sha256": "c5779ee07876cb36b2d94f0de021cb0a2096a12fe16c2fd94ad0cf57a5893341"
     },
     {
       "slug": "technical-writer",
       "name": "Technical Writer",
       "type": "agent",
-      "category": "writing",
-      "description": "Clear, accurate technical documentation — API docs, guides, runbooks, and READMEs",
+      "category": "engineering",
+      "description": "Expert technical writer specializing in developer documentation, API references, README files, and tutorials that developers actually read and use",
       "path": "agents/technical-writer.md",
       "version": "1.0.0",
-      "tags": ["documentation", "writing", "api-docs", "readme", "guides"],
-      "emoji": "✍️",
-      "sha256": "b9bb92d822a978559842adbef52c23d75d5a41402b11d56c3059959a957901ed"
+      "tags": ["documentation", "technical-writing", "api-docs", "developer-experience"],
+      "emoji": "📚",
+      "sha256": "f2af084a066f9d77ec5a068a7c600b97b1cb6c38dfd889ebe7fe56e1833bb55f"
     },
     {
       "slug": "review-pr",
@@ -134,14 +134,14 @@
       "name": "Engineering Essentials",
       "description": "Core engineering skills and agents for code quality, security, and system design",
       "emoji": "⚡",
-      "items": ["code-reviewer", "security-audit", "security-engineer", "architect"]
+      "items": ["code-reviewer", "security-audit", "security-engineer", "software-architect"]
     },
     {
       "slug": "devops-starter",
       "name": "DevOps Starter",
       "description": "Essential DevOps automation, reliability, and deployment tools",
       "emoji": "🚀",
-      "items": ["devops-automator", "sre-agent", "deploy-check"]
+      "items": ["devops-automator", "sre", "deploy-check"]
     }
   ]
 }
